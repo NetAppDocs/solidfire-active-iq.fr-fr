@@ -1,0 +1,99 @@
+---
+permalink: task_active_iq_replication.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, replication 
+summary: En savoir plus sur la page réplication dans SolidFire Active IQ. 
+---
+= La réplication
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+La page *Replication*, disponible dans le panneau latéral d'un cluster sélectionné, fournit des informations sur les paires de clusters et les paires de volumes.
+
+En savoir plus sur les pages paires de clusters et de volumes :
+
+* ,Paires de clusters
+* ,Paires de volume
+
+
+
+
+== Paires de clusters
+
+Sur la page *Replication* > *Cluster paires* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les paires de clusters.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID de paire de clusters | Numéro d'ID indiqué lors de la création de la paire de clusters. 
+
+
+| Nom du cluster distant | Nom du cluster distant de la paire. 
+
+
+| MVIP distant | IP virtuelle de gestion du cluster distant. 
+
+
+| Réplication de volumes | Représente le nombre de volumes répliqués sur le cluster apparié. 
+
+
+| État | État de la paire cluster. 
+
+
+| UUID | Identifiant unique universel. 
+|===
+
+
+== Paires de volume
+
+Sur la page *réplication* > *paires de volumes* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les paires de volumes.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID du volume | Numéro d'ID indiqué lors de la création du volume. 
+
+
+| ID de compte | ID du compte attribué au volume. 
+
+
+| État du volume | État du volume en cours de réplication. 
+
+
+| Mode de réplication | Type de mode sélectionné pour la paire de volumes. 
+
+
+| Direction  a| 
+Indique la direction des données de volume :
+
+* Source : indique que les données sont écrites sur une cible hors du cluster.
+* Cible : indique que les données sont écrites sur le volume local à partir d'une source externe.
+
+
+
+
+| Délai asynchrone  a| 
+Durée écoulée depuis la dernière synchronisation du volume avec le cluster distant. Si le volume n'est pas apparié, il s'agit de la valeur NULL.
+
+
+NOTE: Un volume cible dans un état de réplication actif a toujours un délai asynchrone de 0 (zéro). Les volumes cibles reconnaissent le système lors de la réplication et peuvent supposer que le délai asynchrone est à tout moment précis.
+
+
+
+| Cluster distant | Nom du cluster distant sur lequel réside le volume. 
+
+
+| ID du volume distant | ID de volume du volume sur le cluster distant. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

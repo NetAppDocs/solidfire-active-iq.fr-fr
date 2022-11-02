@@ -1,0 +1,41 @@
+---
+permalink: task-active-iq-capacity-licensing.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, capacity, licensing 
+summary: Découvrez la page Capacity Licensing de SolidFire Active IQ. 
+---
+= Licences de capacité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sur la page *Capacity Licensing* de la *vue tous les clusters*, vous pouvez afficher des informations sur le modèle NetApp Capacity Licensing. Ne tenez pas compte de cette page si vous utilisez des appliances SolidFire standard.
+
+Capacity Licensing est une option de licence alternative disponible auprès de NetApp. Découvrez ou exécutez les tâches liées à l'utilisation de licences de capacité :
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| Nom du pool | Nom du client associé à la licence. 
+
+
+| Intitulé capacité | Somme des licences de capacité logicielle achetées. 
+
+
+| Capacité provisionnée | Capacité provisionnée allouée sur tous les nœuds sous licence de capacité dans un environnement client. 
+
+
+| Capacité utilisée | Capacité utilisée actuelle par tous les clusters d'un pool de cluster. 
+
+
+| Clusters | Le nombre de clusters et leurs ID, qui constituent un pool de clusters pour une licence. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

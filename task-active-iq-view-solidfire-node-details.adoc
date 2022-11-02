@@ -1,0 +1,97 @@
+---
+permalink: task-active-iq-view-solidfire-node-details.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, storage, node, details 
+summary: 'Pour en savoir plus sur l"affichage des détails des nœuds de stockage SolidFire dans SolidFire Active IQ.' 
+---
+= Afficher les détails des nœuds de stockage SolidFire
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Chaque nœud est un ensemble de disques SSD. Chaque nœud de stockage est fourni avec des ressources de processeur, de réseau, de cache et de stockage. Les ressources du nœud de stockage sont regroupées dans un cluster de nœuds.
+
+Sur la page *Nodes*, la barre d'informations fournit un aperçu rapide des données suivantes :
+
+* MVIP : adresse IP virtuelle de gestion
+* ID VLAN MVIP : ID LAN virtuel pour le MVIP
+* SVIP : adresse IP virtuelle de stockage
+* SVIP VLAN ID : ID LAN virtuel pour le SVIP
+
+
+
+
+== Afficher des informations sur les nœuds de stockage
+
+Les informations suivantes sont disponibles pour chaque nœud de stockage du cluster :
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| ID | ID généré par le système pour le nœud. 
+
+
+| État  a| 
+L'état du nœud :
+
+* Sain : le nœud n'a aucune erreur critique associée.
+* Hors ligne : impossible d'accéder au nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+* Erreur : des erreurs sont associées à ce nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+
+
+
+
+| Nom | Nom du nœud généré par le système. 
+
+
+| Type | Affiche le type de modèle du nœud. 
+
+
+| Version | Version du logiciel Element exécutée sur chaque nœud. 
+
+
+| Numéro de service | Numéro de balise de service unique attribué au nœud. 
+
+
+| Numéro de série | Numéro de série unique attribué au nœud. 
+
+
+| IP de gestion | Adresse IP de gestion MIP attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE. 
+
+
+| IP de cluster | Adresse IP de cluster attribuée au nœud utilisé pour la communication entre les nœuds du même cluster. 
+
+
+| IP de stockage | Adresse IP de stockage attribuée au nœud utilisé pour la détection du réseau iSCSI et à tout le trafic du réseau de données. 
+
+
+| Port de réplication | Port utilisé sur les nœuds pour la réplication à distance. 
+
+
+| Rôle  a| 
+Identifie le rôle qui y est attribué au nœud dans le cluster :
+
+* Cluster Master : nœud qui effectue des tâches administratives à l'échelle du cluster et qui contient MVIP et SVIP.
+* Nœud ensemble : nœud qui participe au cluster. Il y a trois ou cinq nœuds d'ensemble en fonction de la taille du groupe.
+* Fibre Channel : nœud FC dans le cluster.
+
+
+
+
+| IOPS moyennes au cours des 30 dernières minutes | Somme du nombre moyen d'IOPS exécutées au cours des 30 dernières minutes sur tous les volumes sur lesquels ce nœud est leur stockage primaire. 
+
+
+| Débit moyen au cours des 30 dernières minutes | Somme des débits moyens exécutés au cours des 30 dernières minutes sur tous les volumes qui ont ce nœud comme étant leur primaire. 
+
+
+| Latence moyenne (µs) les 30 dernières minutes | Temps moyen en microsecondes, mesuré au cours des 30 dernières minutes, pour terminer les opérations de lecture et d'écriture sur tous les volumes qui ont ce nœud comme principal. Pour signaler cette mesure basée sur des volumes actifs, seules des valeurs de latence autres que zéro sont utilisées. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

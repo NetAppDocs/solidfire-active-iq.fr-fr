@@ -1,0 +1,114 @@
+---
+permalink: task-active-iq-view-hci-node-details.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, hci, compute, storage, nodes 
+summary: Découvrez comment afficher les détails des nœuds NetApp HCI dans SolidFire Active IQ. 
+---
+= Consultez les détails des nœuds de calcul et de stockage NetApp HCI
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Pour les nœuds NetApp H-Series, qui composent un système NetApp HCI, il existe deux types : les nœuds de calcul et de stockage.
+
+Sur la page *Nodes*, la barre d'informations fournit un aperçu rapide des données suivantes :
+
+* VCenter IP : adresse IP du serveur vCenter
+* MVIP : adresse IP virtuelle de gestion
+* SVIP : adresse IP virtuelle de stockage
+
+
+
+
+== Afficher des informations sur les nœuds de stockage
+
+Sélectionnez *Storage* pour afficher les informations suivantes sur les nœuds de stockage du cluster.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| ID | ID généré par le système pour le nœud. 
+
+
+| État  a| 
+L'état du nœud :
+
+* Sain : le nœud n'a aucune erreur critique associée.
+* Hors ligne : impossible d'accéder au nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+* Erreur : des erreurs sont associées à ce nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+
+
+
+
+| Type | Affiche le type de modèle du nœud. 
+
+
+| Châssis / emplacement | Numéro de série unique attribué au châssis et à l'emplacement du nœud. 
+
+
+| Numéro de série | Numéro de série unique attribué au nœud. 
+
+
+| Version | Version du logiciel Element exécutée sur chaque nœud. 
+
+
+| IP de gestion | Adresse IP de gestion attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE. 
+
+
+| IP de stockage | Adresse IP de stockage attribuée au nœud utilisé pour la détection du réseau iSCSI et à tout le trafic du réseau de données. 
+
+
+| Rôle  a| 
+Identifie le rôle qui y est attribué au nœud dans le cluster :
+
+* Cluster Master : nœud qui effectue des tâches administratives à l'échelle du cluster et qui contient MVIP et SVIP.
+* Nœud ensemble : nœud qui participe au cluster. Il y a 3 ou 5 nœuds d'ensemble en fonction de la taille du groupe.
+
+
+
+
+| IOPS moyennes au cours des 30 dernières minutes | Somme du nombre moyen d'IOPS exécutées au cours des 30 dernières minutes sur tous les volumes sur lesquels ce nœud est leur stockage primaire. 
+
+
+| Débit moyen au cours des 30 dernières minutes | Somme des débits moyens exécutés au cours des 30 dernières minutes sur tous les volumes qui ont ce nœud comme étant leur primaire. 
+
+
+| Latence moyenne (µs) les 30 dernières minutes | Temps moyen en microsecondes, mesuré au cours des 30 dernières minutes, pour terminer les opérations de lecture et d'écriture sur tous les volumes qui ont ce nœud comme principal. Pour signaler cette mesure basée sur des volumes actifs, seules des valeurs de latence autres que zéro sont utilisées. 
+|===
+
+
+== Afficher des informations sur les nœuds de calcul
+
+Sélectionnez *Compute* pour afficher les informations suivantes sur les nœuds de calcul du cluster.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| IP | Adresse IP du nœud de calcul. 
+
+
+| Statut du vCenter | La valeur ajoutée de VMware. Placez le pointeur de la souris sur cette description pour la description VMware. 
+
+
+| Type | Affiche le type de modèle du nœud. 
+
+
+| Châssis/logement | Numéro de série unique attribué au châssis et à l'emplacement du nœud. 
+
+
+| Numéro de série | Numéro de série unique attribué au nœud. 
+
+
+| IP VMotion | Adresse IP réseau VMware vMotion du nœud de calcul. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

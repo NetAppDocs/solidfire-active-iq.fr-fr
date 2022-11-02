@@ -1,0 +1,402 @@
+---
+permalink: task-active-iq-alerts.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, alerts 
+summary: Découvrez les tâches liées aux alertes dans SolidFire Active IQ. 
+---
+= Alertes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans le menu déroulant *Alerts* de *All clusters View*, vous pouvez afficher l'historique des alertes, créer et gérer des stratégies d'alertes et afficher et supprimer des notifications de cluster.
+
+Découvrez ou effectuez des tâches liées aux alertes :
+
+*  alerts history
+*  history details
+*  alert policies
+* ,Création d'une règle d'alerte
+* ,Types de règles d'alerte
+*  an alert policy
+*  an alert policy
+*  suppressed clusters
+*  cluster notifications
+*  cluster suppression from a cluster
+*  notification email
+
+
+
+
+== Afficher l'historique des alertes
+
+Vous pouvez afficher l'historique des alertes non résolues ou résolues.
+
+.Étapes
+. Sélectionnez *alertes* > *Historique*.
+. Sélectionnez l'onglet *non résolu* ou *résolu* pour afficher l'historique des alertes du cluster.
+. (Facultatif) sélectionnez le image:export_button.PNG["Bouton Exporter"] Pour exporter les données vers un fichier CSV.
+
+
+
+
+== Détails de l'historique des alertes
+
+La page *Historique* du menu déroulant alertes dans la vue tous les clusters affiche jusqu'à 10000 entrées de l'historique des alertes, y compris toutes les alertes et alertes non résolues au cours des 30 derniers jours.
+
+La liste suivante décrit les détails qui vous sont disponibles :
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| L'ID d'alerte | ID unique pour chaque alerte. 
+
+
+| Déclenché | Heure à laquelle l'alerte a été déclenchée dans SolidFire Active IQ, et non sur le cluster lui-même. 
+
+
+| Dernière notification | Heure à laquelle le dernier e-mail d'alerte a été envoyé. 
+
+
+| Résolu | Indique si la cause de l'alerte a été résolue. 
+
+
+| Temps de résolution | Heure à laquelle un problème a été résolu. 
+
+
+| Politique | Nom de la règle d'alerte définie par l'utilisateur. 
+
+
+| Gravité | Gravité attribuée au moment de la création de la règle d'alerte. 
+
+
+| Destination | Adresse e-mail ou adresses sélectionnées pour recevoir l'e-mail d'alerte. 
+
+
+| Société | Nom du client associé à l'alerte. 
+
+
+| Cluster | Affiche le nom du cluster pour lequel la règle d'alerte a été ajoutée. 
+
+
+| Déclenchement | Paramètre défini par l'utilisateur qui a déclenché l'alerte. 
+|===
+
+
+== Afficher les règles d'alerte
+
+La page *Policies* du menu déroulant *Alerts* dans *All clusters View* affiche les informations de stratégie suivantes pour tous les clusters.
+
+La liste suivante décrit les détails qui vous sont disponibles :
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| Nom de la règle | Nom de la règle d'alerte définie par l'utilisateur. 
+
+
+| Destination | Adresse e-mail définie dans la règle d'alerte. 
+
+
+| Gravité | Gravité attribuée dans la règle d'alerte. 
+
+
+| Clusters | Numéro et nom de chaque cluster définis dans la règle d'alerte. Sélectionnez l'icône d'information pour afficher les clusters associés. 
+
+
+| Condition | Paramètre défini par l'utilisateur pour le déclenchement d'une alerte. 
+
+
+| Types de suppression  a| 
+Détermine les alertes et les événements qui sont supprimés. Les types suivants sont possibles :
+
+* *Complète* : toutes les alertes du cluster sont supprimées pour la durée spécifiée. Aucun dossier de support ni aucune alerte e-mail n'est généré.
+* *Mises à niveau* : les alertes de cluster non critiques sont supprimées pour la durée spécifiée. Les alertes critiques génèrent toujours des dossiers de demande de support et des e-mails.
+* *Compute* : les alertes déclenchées par VMware sur les nœuds de calcul sont supprimées.
+* *NodeHardware* : les alertes associées à la maintenance du nœud sont supprimées. Par exemple, remplacer des disques ou mettre des nœuds hors ligne.
+* *Lecteur* : les alertes associées à l'état du disque sont supprimées.
+* *Réseau* : les alertes associées à la configuration et à l'intégrité du réseau sont supprimées.
+* *Alimentation* : les alertes de redondance de l'alimentation sont supprimées. Elle ne supprime pas une alerte _nodeOffline_ qui se produirait en cas de perte totale de puissance.
+
+
+
+
+| Actions | Sélectionnez le menu déroulant vertical pour les options de modification et de suppression de la stratégie sélectionnée. 
+|===
+
+
+== Création d'une règle d'alerte
+
+Vous pouvez créer une règle d'alerte pour surveiller les informations à partir de la *vue tous les clusters* dans SolidFire Active IQ. Les règles d'alerte vous permettent de recevoir une notification d'état ou de performances lorsqu'un ou plusieurs clusters se trouvent dans l'ensemble de l'installation, afin de prendre des mesures préalablement ou en réponse à un événement plus grave.
+
+.Étapes
+. Sélectionnez *alertes* > *stratégies*.
+. Sélectionnez *Créer une stratégie*.
+. Sélectionnez un type d'alerte dans la liste *Type de police*. Voir ,Types de règles d'alerte.
++
+
+NOTE: Il existe d'autres champs spécifiques à une stratégie dans la boîte de dialogue *Créer une stratégie* en fonction du type de stratégie sélectionné.
+
+. Entrez un nom pour la nouvelle règle d'alerte.
++
+
+NOTE: Les noms des règles d'alerte doivent décrire la condition pour laquelle l'alerte est en cours de création. Les titres descriptifs permettent d'identifier facilement l'alerte. Les noms des règles d'alerte sont affichés comme référence ailleurs dans le système.
+
+. Sélectionnez un niveau de gravité.
++
+
+TIP: Les niveaux de gravité des règles d'alerte sont codés par couleur et peuvent être filtrés facilement à partir de la page *alertes* > *Historique*.
+
+. Déterminez le type de suppression de la règle d'alerte en sélectionnant un type dans *types suppressibles*. Vous pouvez sélectionner plusieurs types.
++
+Confirmez que les associations ont un sens. Par exemple, vous avez sélectionné *Suppression réseau* pour une stratégie d'alerte réseau.
+
+. Sélectionnez un ou plusieurs clusters à inclure dans la stratégie.
++
+
+CAUTION: Lorsque vous ajoutez un nouveau cluster à votre installation une fois la règle créée, le cluster n'est pas automatiquement ajouté aux règles d'alerte existantes. Vous devez modifier une règle d'alerte existante et sélectionner le nouveau cluster à associer à la règle.
+
+. Entrez une ou plusieurs adresses e-mail auxquelles les notifications d'alerte seront envoyées. Si vous entrez plusieurs adresses, vous devez utiliser une virgule pour séparer chaque adresse.
+. Sélectionnez *Enregistrer la stratégie d'alerte*.
+
+
+
+
+== Types de règles d'alerte
+
+Vous pouvez créer des stratégies d'alerte en fonction des types de stratégie disponibles répertoriés dans la boîte de dialogue *Créer une stratégie* à partir de *alarmes* > *stratégies*.
+
+Les alertes de politique disponibles incluent les types suivants :
+
+[cols="25,75"]
+|===
+| Type de stratégie | Description 
+
+
+| Panne du cluster | Envoie une notification lorsqu'un type spécifique ou tout type de défaillance du cluster se produit. 
+
+
+| Événement | Envoie une notification lorsqu'un type d'événement spécifique se produit. 
+
+
+| Disque défectueux | Envoie une notification en cas de panne de disque. 
+
+
+| Lecteur disponible | Envoie une notification lorsqu'un lecteur est connecté à l'état _Available_. 
+
+
+| Utilisation du cluster | Envoie une notification lorsque la capacité et la performance du cluster utilisées sont supérieures au pourcentage spécifié. 
+
+
+| Espace utilisable | Envoie une notification lorsque l'espace utilisable du cluster est inférieur à un pourcentage spécifié. 
+
+
+| Espace pouvant être provisionne | Envoie une notification lorsque l'espace du cluster pouvant être alloué est inférieur à un pourcentage spécifié. 
+
+
+| Collecteur pas de rapport | Envoie une notification lorsque le collecteur pour SolidFire Active IQ exécuté sur le nœud de gestion ne parvient pas à envoyer les données à SolidFire Active IQ pendant la durée spécifiée. 
+
+
+| Usure des disques | Envoie une notification lorsqu'un disque d'un cluster est inférieur à un pourcentage spécifié d'usure ou d'espace de réserve restant. 
+
+
+| Sessions iSCSI | Envoie une notification lorsque le nombre de sessions iSCSI actives est supérieur à la valeur spécifiée. 
+
+
+| Résilience du châssis | Envoie une notification lorsque l'espace utilisé d'un cluster est supérieur à un pourcentage spécifié par l'utilisateur. Vous devez sélectionner un pourcentage suffisant pour avertir au plus tôt avant d'atteindre le seuil de résilience du cluster. Un cluster ne peut plus réparer automatiquement après une défaillance au niveau du châssis. 
+
+
+| Alarme VMware | Envoie une notification lorsqu'une alarme VMware est déclenchée et signalée à SolidFire Active IQ. 
+
+
+| Résilience de domaine de protection personnalisée | Lorsque l'espace utilisé augmente au-delà du pourcentage spécifié de résilience du domaine de protection personnalisé, le système envoie une notification. Si ce pourcentage atteint 100, le cluster de stockage ne dispose pas de suffisamment de capacité libre pour permettre la réparation automatique après une défaillance personnalisée du domaine de protection. 
+
+
+| Fichiers de core/Crash du nœud | Lorsqu'un service ne répond plus et doit être redémarré, le système crée un fichier « core » ou « crash dump » et envoie une notification. Ce comportement n'est pas prévu pendant les opérations régulières. 
+|===
+
+
+== Modifiez une règle d'alerte
+
+Vous pouvez modifier une règle d'alerte pour ajouter ou supprimer des clusters d'une règle ou modifier d'autres paramètres de règle.
+
+.Étapes
+. Sélectionnez *alertes* > *stratégies*.
+. Sélectionnez le menu pour plus d'options sous *actions*.
+. Sélectionnez *Modifier la stratégie*.
++
+
+NOTE: Le type de règle et les critères de surveillance spécifiques au type ne sont pas modifiables.
+
+. (Facultatif) Entrez un nom révisé pour la nouvelle règle d'alerte.
++
+
+NOTE: Les noms des règles d'alerte doivent décrire la condition pour laquelle l'alerte est en cours de création. Les titres descriptifs permettent d'identifier facilement l'alerte. Les noms des règles d'alerte sont affichés comme référence ailleurs dans le système.
+
+. (Facultatif) sélectionnez un niveau de gravité différent.
++
+
+TIP: Les niveaux de sévérité des règles d'alerte sont codés par couleur et peuvent facilement être filtrés depuis la page alertes > Historique.
+
+. Déterminez le type de suppression de la règle d'alerte lorsqu'elle est active en sélectionnant un type dans *types suppressibles*. Vous pouvez sélectionner plusieurs types.
++
+Confirmez que les associations ont un sens. Par exemple, vous avez sélectionné *Suppression réseau* pour une stratégie d'alerte réseau.
+
+. (Facultatif) sélectionnez ou supprimez des associations de grappe avec la stratégie.
++
+
+CAUTION: Lorsque vous ajoutez un nouveau cluster à votre installation une fois que vous avez créé la règle, le cluster n'est pas automatiquement ajouté aux règles d'alerte existantes. Vous devez sélectionner le nouveau cluster que vous souhaitez associer à la règle.
+
+. (Facultatif) modifiez une ou plusieurs adresses e-mail auxquelles les notifications d'alerte seront envoyées. Si vous entrez plusieurs adresses, vous devez utiliser une virgule pour séparer chaque adresse.
+. Sélectionnez *Enregistrer la stratégie d'alerte*.
+
+
+
+
+== Supprimez une règle d'alerte
+
+La suppression d'une règle d'alerte la supprime définitivement du système. Les notifications par e-mail ne sont plus envoyées pour cette stratégie et les associations de clusters avec cette règle sont supprimées.
+
+.Étapes
+. Sélectionnez *alertes* > *stratégies*.
+. Sous *actions*, sélectionnez le menu pour plus d'options.
+. Sélectionnez *Supprimer la stratégie*.
+. Confirmez l'action.
++
+La stratégie est définitivement supprimée du système.
+
+
+
+
+
+== Afficher les clusters supprimés
+
+Sur la page *clusters supprimés* du menu déroulant *alertes* dans *Affichage de tous les clusters*, vous pouvez afficher la liste des clusters dont les notifications d'alerte ont été supprimées.
+
+Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie.
+
+Les informations suivantes sont disponibles sur la page *clusters supprimés*.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| Société | Nom de l'entreprise attribué au cluster. 
+
+
+| ID de cluster | Numéro de cluster attribué lors de la création du cluster. 
+
+
+| Nom de cluster | Nom attribué au cluster. 
+
+
+| Heure de début | Heure exacte de début de la suppression des notifications. 
+
+
+| Heure de fin | Heure exacte à laquelle la suppression des notifications est planifiée 
+
+
+| Type  a| 
+Détermine les alertes et les événements qui sont supprimés. Les types suivants sont possibles :
+
+* *Complète* : toutes les alertes du cluster sont supprimées pour la durée spécifiée. Aucun dossier de support ni aucune alerte e-mail n'est généré.
+* *Mises à niveau* : les alertes de cluster non critiques sont supprimées pour la durée spécifiée. Les alertes critiques génèrent toujours des dossiers de demande de support et des e-mails.
+* *Compute* : les alertes déclenchées par VMware sur les nœuds de calcul sont supprimées.
+* *NodeHardware* : les alertes associées à la maintenance du nœud sont supprimées. Par exemple, remplacer des disques ou mettre des nœuds hors ligne.
+* *Lecteur* : les alertes associées à l'état du disque sont supprimées.
+* *Réseau* : les alertes associées à la configuration et à l'intégrité du réseau sont supprimées.
+* *Alimentation* : les alertes de redondance de l'alimentation sont supprimées. Elle ne supprime pas une alerte _nodeOffline_ qui se produirait en cas de perte totale de puissance.
+
+
+
+
+| Actions | Sélectionnez l'option pour supprimer ou reprendre les notifications d'un cluster. 
+|===
+
+
+== Supprimez les notifications de cluster
+
+Vous pouvez supprimer les notifications d'alertes au niveau du cluster pour un ou plusieurs clusters.
+
+.Étapes
+. Effectuez l'une des opérations suivantes :
++
+.. Dans la vue d'ensemble *Dashboard*, sélectionnez le menu actions du cluster que vous souhaitez supprimer.
+.. Dans *Alerts* > *Cluster Suppression*, sélectionnez *Supress clusters*.
+
+
+. Dans la boîte de dialogue *Supprimer les alertes pour le cluster*, procédez comme suit :
++
+.. Si vous avez sélectionné le bouton *Supprimer les clusters* dans la page *clusters supprimés*, sélectionnez un cluster.
+.. Sélectionnez un type de suppression d'alerte : *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Réseau* ou *puissance*. ,Découvrez les types de suppression.
++
+
+NOTE: Un cluster peut avoir plusieurs types de suppression mais ne peut pas partager un type de suppression. Par exemple, un cluster peut avoir une suppression *Full*, *Compute* et *Drive*, mais pas deux suppressions *Full*. Lorsqu'une suppression existe déjà sur un cluster, elle est grisée. Pour remplacer une suppression existante, sélectionnez *remplacer existant* et sélectionnez le nouveau type de suppression.
+
+.. Sélectionnez une durée commune ou entrez une date et une heure de fin personnalisées pendant lesquelles les notifications doivent être supprimées.
+
+
+. Sélectionnez *Supprimer*.
++
+
+NOTE: Cette action supprime également certaines notifications ou toutes les notifications du support NetApp. Après la suppression du cluster, le support NetApp ou tout utilisateur autorisé à afficher le cluster peut mettre à jour l'état de suppression.
+
+
+
+
+
+== Suppression du bloc d'instruments d'extrémité d'un cluster
+
+Vous pouvez mettre fin à la suppression des alertes du cluster sur les clusters qui ont été appliqués à l'aide de la fonction Supprimer les clusters. Cela permet aux clusters de reprendre leur rapport d'état normal des alertes.
+
+.Étapes
+. Dans la vue d'ensemble *Dashboard* ou *Alerts* > *Cluster Suppression*, la suppression de fin pour les clusters uniques ou multiples que vous souhaitez reprendre le reporting d'alerte normal :
++
+.. Pour un seul cluster, sélectionnez le menu actions du cluster et sélectionnez *End Suppression*.
+.. Pour plusieurs clusters, sélectionnez les clusters, puis sélectionnez *End Selected Suppressions*.
+
+
+
+
+
+
+== E-mail de notification d'alerte
+
+Les abonnés aux alertes SolidFire Active IQ reçoivent différents e-mails d'état pour chaque alerte qui se déclenche sur le système. Trois types d'e-mails d'état sont associés à des alertes :
+
+[cols="35,65"]
+|===
+
+
+| Nouvel e-mail d'alerte | Ce type d'e-mail est envoyé lorsqu'une alerte est déclenchée. 
+
+
+| E-mail d'alerte de rappel | Ce type d'e-mail est envoyé une fois toutes les 24 heures tant que l'alerte reste active. 
+
+
+| Alerte - E-mail résolu | Ce type d'e-mail est envoyé lorsque le problème est résolu. 
+|===
+Après la création d'une règle d'alerte et si une nouvelle alerte est générée pour cette règle, un e-mail est envoyé à l'adresse e-mail désignée (voir la ,Créer une règle d'alerte).
+
+La ligne d'objet de l'e-mail d'alerte utilise l'un des formats suivants en fonction du type d'erreur signalé :
+
+* Défaut de groupe non résolu : `[cluster fault code] fault on [cluster name] ([severity])`
+* Résolution de l'erreur de cluster : `Resolved: [cluster fault code] fault on [cluster name] ([severity])`
+* Alerte non résolue : `[policy name] alert on [cluster name] ([severity])`
+* Anomalie d'alerte résolue : `Resolved: [policy name] alert on [cluster name] ([severity])`
+
+
+Le contenu de l'e-mail de notification sera similaire à l'exemple suivant :image:example_email.PNG["Exemple d'e-mail"]
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

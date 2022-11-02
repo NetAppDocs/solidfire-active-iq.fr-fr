@@ -1,0 +1,122 @@
+---
+permalink: task-active-iq-single-cluster-view-dashboard.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, dashboard, single, cluster 
+summary: 'En savoir plus sur la page Tableau de bord d"un cluster sélectionné dans SolidFire Active IQ.' 
+---
+= Tableau de bord unique - vue sur le cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sur la page *Tableau de bord* d'un cluster sélectionné, vous pouvez afficher les détails de haut niveau du cluster, y compris les performances, la capacité et l'utilisation du calcul.
+
+Sélectionnez le menu déroulant *Afficher les détails* pour afficher plus d'informations sur le cluster ou sélectionnez image:more_details.PNG["Plus de détails"] icône en regard d'un en-tête pour des informations de reporting plus granulaires. Vous pouvez également déplacer le pointeur de la souris sur les lignes de graphique et les données de rapport pour afficher des détails supplémentaires.
+
+Les détails disponibles varient en fonction de votre système :
+
+*  system
+*  HCI system overview
+
+
+
+
+== Système de stockage uniquement
+
+Pour une solution de stockage SolidFire, vous pouvez afficher des détails et des informations de performances spécifiques à votre cluster lorsque vous sélectionnez *Afficher les détails* sur la page *Tableau de bord*.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| Barre d'informations | Cette barre supérieure offre un aperçu rapide de l'état actuel du cluster sélectionné. Cette barre affiche le nombre de nœuds, le nombre de volumes, les détails des pannes, des statistiques en temps réel sur l'efficacité, ainsi que l'état du bloc et de la capacité des métadonnées. Les liens de cette barre s'ouvrent aux données correspondantes dans l'interface utilisateur. 
+
+
+| Détails du cluster  a| 
+Développez la barre d'informations en sélectionnant *Afficher les détails* pour afficher les valeurs suivantes :
+
+* Version de l'élément
+* Sessions iSCSI
+* Sessions Fibre Channel
+* Nombre total d'IOPS configurées
+* IOPS max. Total
+* Types de nœuds
+* Chiffrement des données au repos
+* Vvol
+* Nombre total d'IOPS min. Configurées
+
+
+
+
+| Performance | Ce graphique montre l'utilisation des IOPS et du débit. 
+
+
+| Puissance  a| 
+Cela montre l'état de santé et la plénitude du cluster de l'installation :
+
+* Provisionné : capacité totale de tous les volumes créés sur le système.
+* Physique : capacité physique totale (capacité totale de données en bloc) sur le système pour que les données soient stockées (après application des fonctionnalités d'efficacité).
+* Capacité du bloc : quantité de capacité de données en mode bloc actuellement utilisée.
+* Capacité des métadonnées : quantité de capacité de métadonnées actuellement utilisée.
+* Efficacité : efficacité obtenue grâce à la compression, à la déduplication et au provisionnement fin du système.
+
+
+|===
+
+
+== Présentation du système NetApp HCI
+
+Avec une solution basée sur NetApp HCI, vous pouvez afficher les détails et les informations de performances spécifiques à votre cluster lorsque vous sélectionnez *Afficher les détails* sur la page *Tableau de bord*.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| Barre d'informations | Cette barre supérieure offre un aperçu rapide de l'état actuel du cluster sélectionné. La barre affiche le nombre de nœuds de calcul et de stockage, l'état de calcul, l'état du stockage, le nombre de machines virtuelles et le nombre de volumes associés à votre système NetApp HCI. Les liens de cette barre s'ouvrent aux données correspondantes dans l'interface utilisateur. 
+
+
+| Détails de l'installation  a| 
+Développez la barre d'informations en sélectionnant *Afficher les détails* pour afficher les valeurs suivantes :
+
+* Version de l'élément
+* Hyperviseur
+* Instance vCenter associée
+* Data Center associé
+* Nombre total d'IOPS configurées
+* IOPS max. Total
+* Types de nœud de calcul
+* Types de nœuds de stockage
+* Chiffrement des données au repos
+* Vvol
+* Sessions iSCSI
+* Nombre total d'IOPS min. Configurées
+
+
+
+
+| Utilisation du calcul | L'utilisation du processeur et de la mémoire est représentée dans ce graphique. 
+
+
+| Capacité de stockage  a| 
+Cela montre l'état de santé et la plénitude du cluster de l'installation :
+
+* Provisionné : capacité totale de tous les volumes créés sur le système.
+* Physique : capacité physique totale (capacité totale de données en bloc) sur le système pour que les données soient stockées (après application des fonctionnalités d'efficacité).
+* Capacité du bloc : quantité de capacité de données en mode bloc actuellement utilisée.
+* Capacité des métadonnées : quantité de capacité de métadonnées actuellement utilisée.
+* Efficacité : efficacité obtenue grâce à la compression, à la déduplication et au provisionnement fin du système.
+
+
+
+
+| Performances du stockage | Les IOPS et le débit sont représentés sur ce graphique. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

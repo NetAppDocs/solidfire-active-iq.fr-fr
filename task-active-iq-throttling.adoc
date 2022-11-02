@@ -1,0 +1,58 @@
+---
+permalink: task-active-iq-throttling.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes, throttling 
+summary: Découvrez la page accélération des nœuds dans SolidFire Active IQ. 
+---
+= Accélération des nœuds
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+À partir de la page *QoS Management* > *Node restriction*, disponible dans le panneau latéral d'un cluster sélectionné, vous pouvez afficher le pourcentage d'accélération des nœuds du cluster. Les nœuds sont répertoriés sous forme de vignettes sur le côté gauche de l'écran et sont classés selon le degré d'étranglement d'une plage de temps sélectionnée.
+
+Pour en savoir plus sur l'affichage des informations d'accélération des nœuds :
+
+*  graphs and select date ranges
+*  node throttling data
+
+
+
+
+== Affichez les graphiques et sélectionnez les plages de dates
+
+Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lorsque vous sélectionnez une plage de dates, tous les graphiques de cette page s'ajustent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours.
+
+Vous pouvez sélectionner une plage de dates dans la liste déroulante du calendrier ou à partir d'un ensemble de plages prédéfinies. Les plages de dates sont calculées à l'aide de l'heure actuelle du navigateur (au moment de la sélection) et de la durée configurée. En outre, vous pouvez sélectionner l'intervalle souhaité en vous brossant directement sur le graphique à barres en bas. Vous pouvez passer d'un graphique à l'autre en sélectionnant la disposition des vignettes sur la gauche.
+
+Les graphiques affichent l'accélération du nœud sur la période sélectionnée en fonction des paramètres d'IOPS minimal et maximal des volumes hébergés sur le nœud sélectionné. La couleur représente la quantité d'étranglement : vert (aucun), jaune (limité) ou rouge (élevé). Pour plus d'informations, reportez-vous au graphique suivant exemple :
+
+.Développez l'exemple de graphique
+====
+image:node_throttling_range.PNG["Graphique d'accélération des nœuds"]
+
+====
+Positionnez le pointeur de la souris à n'importe quel point du graphique pour afficher les détails de point dans le temps.
+
+link:task-active-iq-qos-recommendations.html["En savoir plus sur les recommandations relatives à la qualité de service d'un cluster"].
+
+
+NOTE: Dans la page accélération des nœuds, vous pouvez déterminer s'il existe une poussée QoS dans un cluster de stockage, reportez-vous à cette section https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software["Article de la base de connaissances"^] pour plus d'informations.
+
+
+
+== Exporter les données d'accélération de nœud
+
+Vous pouvez exporter les données graphiques au format CSV (valeurs séparées par des virgules). Seules les informations affichées dans le graphique sont exportées.
+
+.Étapes
+. Dans une liste ou un graphique, sélectionnez le image:export_button.PNG["Bouton Exporter"] icône.
+
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

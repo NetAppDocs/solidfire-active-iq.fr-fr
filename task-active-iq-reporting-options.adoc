@@ -1,0 +1,314 @@
+---
+permalink: task-active-iq-reporting-options.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, reporting, cluster 
+summary: Découvrez les options de reporting pour un cluster sélectionné dans SolidFire Active IQ. 
+---
+= Options de rapport pour un groupe sélectionné
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez le menu déroulant *Reporting* dans le panneau latéral :
+
+* 
+* 
+* 
+*  log
+* 
+* 
+*  Sessions
+*  Networks
+*  Collection
+
+
+
+
+== Puissance
+
+Sur la page *capacité* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur l'espace de cluster global provisionné en volumes. Les barres d'informations de capacité fournissent l'état actuel et des prévisions de la capacité de stockage en mode bloc et métadonnées pour le cluster. Les graphiques correspondants fournissent des méthodes supplémentaires d'analyse des données du cluster.
+
+
+NOTE: Pour plus d'informations sur les niveaux de gravité et la plénitude des clusters, consultez le https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
+
+Les descriptions suivantes décrivent en détail la capacité du bloc, la capacité des métadonnées et l'espace provisionné sur le cluster sélectionné.
+
+[cols="20,35,45"]
+|===
+3+| Capacité de bloc 
+
+
+| En-tête | Description | Prévision 
+
+
+| Capacité utilisée | Capacité utilisée actuelle du bloc de cluster. | Sans objet 
+
+
+| Seuil d'avertissement | Seuil d'avertissement actuel. | Prévision de la date à laquelle le seuil d'avertissement sera atteint. 
+
+
+| Seuil d'erreur | Seuil d'erreur actuel. | Prévision de la date à laquelle le seuil d'erreur sera atteint. 
+
+
+| Capacité totale | Capacité totale du bloc. | Prévoir quand le seuil critique sera atteint. 
+
+
+| État actuel | État actuel du bloc. | Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^]. 
+
+
+3+| Capacité des métadonnées 
+
+
+| En-tête 2+| Description 
+
+
+| Capacité utilisée  a| 
+Capacité du cluster de métadonnées utilisée pour ce cluster.
+
+
+
+| Capacité totale  a| 
+La capacité totale disponible des métadonnées pour ce cluster et le seuil critique prévu.
+
+
+
+| État actuel  a| 
+État actuel de la capacité des métadonnées pour ce cluster.
+
+
+
+3+| Espace provisionné 
+
+
+| En-tête 2+| Description 
+
+
+| Espace provisionné  a| 
+Quantité d'espace actuellement provisionné sur le cluster.
+
+
+
+| Espace maximal provisionné  a| 
+Espace maximal pouvant être provisionné sur le cluster.
+
+|===
+
+
+== Efficacité
+
+Sur la page *efficacité* du menu déroulant cluster *Reporting* pour un cluster sélectionné, vous pouvez afficher des informations détaillées sur le provisionnement fin, la déduplication et la compression sur le cluster lorsque vous déplacez le pointeur de la souris sur les points de données du graphique.
+
+
+NOTE: Toutes les efficacités combinées sont calculées par une simple multiplication des valeurs de facteur signalées.
+
+Les descriptions suivantes fournissent des détails sur les gains d'efficacité calculés sur le cluster sélectionné.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| Efficacité globale | L'efficacité globale du provisionnement fin, de la déduplication et de la compression est multipliée ensemble. Ces calculs ne prennent pas en compte la fonction de double hélice intégrée dans le système. 
+
+
+| La déduplication et la compression | Résultat combiné du gain d'espace grâce à la déduplication et à la compression. 
+
+
+| Provisionnement fin | Quantité d'espace économisé grâce à cette fonction. Ce nombre reflète le delta entre la capacité allouée au cluster et la quantité de données réellement stockées. 
+
+
+| Déduplication | Le multiplicateur de ratio de la quantité d'espace enregistrée en ne stockant pas les données dupliquées dans le cluster. 
+
+
+| Compression | Effets de la compression des données sur les données stockées dans le cluster. Les différents types de données se compressent à des débits différents. Par exemple, les données de texte et la plupart des documents se compressent facilement dans un espace réduit, mais les images vidéo et graphiques ne le font généralement pas. 
+|===
+
+
+== Performance
+
+Sur la page *Performance* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur l'utilisation des IOPS, le débit et l'utilisation du cluster en sélectionnant la catégorie et le filtrage en fonction de la période de temps.
+
+
+
+== Journal d'erreurs
+
+Sur la page *Journal d'erreurs* du menu déroulant *Rapport* pour une grappe sélectionnée, vous pouvez afficher des informations sur les erreurs non résolues ou résolues qui ont été signalées par le cluster. Ces informations peuvent être filtrées et exportées dans un fichier CSV (valeurs séparées par des virgules). Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
+
+Les informations suivantes sont indiquées pour le groupe sélectionné.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID | ID d'une panne de cluster. 
+
+
+| Date | La date et l'heure auxquelles le défaut a été enregistré. 
+
+
+| Gravité | Il peut s'agir d'avertissements, d'erreurs, d'avertissements ou de bonnes pratiques. 
+
+
+| Type | Il peut s'agir d'un nœud, d'un disque, d'un cluster, d'un service ou d'un volume. 
+
+
+| ID de nœud | ID de nœud du nœud auquel cette erreur fait référence. Inclus pour les défaillances de nœud et de lecteur ; sinon, régler sur - (tableau de bord). 
+
+
+| Nom du nœud | Nom du nœud généré par le système. 
+
+
+| ID de disque | ID du lecteur auquel cette anomalie fait référence. Inclus pour les défauts de conduite, sinon réglé à - (tableau de bord). 
+
+
+| Résolu | S'affiche si la cause de l'erreur a été résolue. 
+
+
+| Temps de résolution | Affiche l'heure à laquelle un problème a été résolu. 
+
+
+| Code d'erreur | Code descriptif indiquant la cause du défaut. 
+
+
+| Détails | Description du défaut avec détails supplémentaires. 
+|===
+
+
+== Événements
+
+Sur la page *Events* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des informations sur les événements clés survenus sur le cluster. Ces informations peuvent être filtrées et exportées vers un fichier CSV.
+
+Les informations suivantes sont indiquées pour le groupe sélectionné.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID d'événement | ID unique associé à chaque événement. 
+
+
+| Heure de l'événement | Heure à laquelle l'événement s'est produit. 
+
+
+| Type | Type d'événement consigné, par exemple, des événements d'API ou des événements de clonage. Voir la https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^] pour en savoir plus. 
+
+
+| Messagerie | Message associé à l'événement. 
+
+
+| ID de service | Service qui a signalé l'incident (le cas échéant). 
+
+
+| ID de nœud | Nœud ayant signalé l'événement (le cas échéant). 
+
+
+| ID de disque | Le lecteur qui a signalé l'incident (le cas échéant). 
+
+
+| Détails | Informations permettant d'identifier la raison de l'événement. 
+|===
+
+
+== Alertes
+
+Sur la page *Alerts* du menu déroulant *Reporting* pour un groupe sélectionné, vous pouvez afficher les alertes de groupe non résolues ou résolues. Ces informations peuvent être filtrées et exportées vers un fichier CSV. Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
+
+Les informations suivantes sont indiquées pour le groupe sélectionné.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| Déclenché | Heure à laquelle l'alerte a été déclenchée dans SolidFire Active IQ, et non sur le cluster lui-même. 
+
+
+| Dernière notification | Heure à laquelle le dernier e-mail d'alerte a été envoyé. 
+
+
+| Résolu | Indique si la cause de l'alerte a été résolue. 
+
+
+| Politique | Nom de la règle d'alerte définie par l'utilisateur. 
+
+
+| Gravité | Gravité attribuée au moment de la création de la règle d'alerte. 
+
+
+| Destination | Adresse e-mail ou adresses sélectionnées pour recevoir l'e-mail d'alerte. 
+
+
+| Déclenchement | Paramètre défini par l'utilisateur qui a déclenché l'alerte. 
+|===
+
+
+== Sessions iSCSI
+
+Sur la page *sessions iSCSI* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur le nombre de sessions actives sur le cluster et sur le nombre de sessions iSCSI qui se sont produites sur le cluster.
+
+.Développez l'exemple de sessions iSCSI
+====
+image:iscsi_sessions.PNG["Sessions iSCSI"]
+
+====
+Vous pouvez déplacer le pointeur de la souris sur un point de données du graphique pour trouver le nombre de sessions pour une période définie :
+
+* Sessions actives : nombre de sessions iSCSI connectées et actives sur le cluster.
+* Pics de sessions actives : nombre maximal de sessions iSCSI qui ont eu lieu sur le cluster au cours des 24 dernières heures.
+
+
+
+NOTE: Ces données incluent des sessions iSCSI générées par des nœuds FC.
+
+
+
+== Réseaux virtuels
+
+Sur la page *réseaux virtuels* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les réseaux virtuels configurés sur le cluster.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID | ID unique du réseau VLAN. Ceci est attribué par le système. 
+
+
+| Nom | Nom unique attribué par l'utilisateur pour le réseau VLAN. 
+
+
+| ID VLAN | Balise VLAN attribuée lors de la création du réseau virtuel. 
+
+
+| SVIP | Adresse IP virtuelle de stockage attribuée au réseau virtuel. 
+
+
+| Masque de réseau | Masque de réseau de ce réseau virtuel. 
+
+
+| Passerelle | Adresse IP unique d'une passerelle réseau virtuelle. VRF doit être activée. 
+
+
+| Fonction VRF activée | Indique si le routage et le transfert virtuels sont activés ou non. 
+
+
+| IPS utilisé | Plage d'adresses IP de réseau virtuel utilisées pour le réseau virtuel. 
+|===
+
+
+== Collecte d'API
+
+Sur la page *API Collection* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher les méthodes API utilisées par le SolidFire Active IQ NetApp. Pour obtenir des descriptions détaillées de ces méthodes, reportez-vous au link:https://docs.netapp.com/us-en/element-software/api/index.html["Documentation de l'API du logiciel Element"^].
+
+
+NOTE: Outre ces méthodes, SolidFire Active IQ effectue des appels internes API utilisés par les services de support et d'ingénierie NetApp pour surveiller l'état du cluster. Ces appels ne sont pas documentés car ils peuvent interrompre la fonctionnalité du cluster s'ils ne sont pas utilisés correctement. Si vous avez besoin d'une liste complète des collections d'API SolidFire Active IQ, vous devez contacter le support NetApp.
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

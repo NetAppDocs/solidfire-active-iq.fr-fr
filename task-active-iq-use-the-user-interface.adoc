@@ -1,0 +1,177 @@
+---
+permalink: task-active-iq-use-the-user-interface.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, enable, reporting 
+summary: 'Découvrez les fonctionnalités de l"interface utilisateur dans SolidFire Active IQ.' 
+---
+= Utiliser l'interface utilisateur de SolidFire Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les fonctionnalités de l'interface utilisateur dans link:https://activeiq.solidfire.com/["SolidFire Active IQ (connexion requise)"^]:
+
+*  filters
+*  lists
+*  graphs and select date ranges
+*  list views and report data
+*  a cluster
+*  reference
+*  feedback
+
+
+
+
+== Utiliser des filtres
+
+Vous pouvez trier et filtrer les informations de liste sur les pages de SolidFire Active IQ. Lors de l'affichage de listes (nœuds, disques, volumes, etc.), vous pouvez utiliser la fonction de filtre pour concentrer les informations et les rendre plus faciles à ajuster à l'écran.
+
+.Étapes
+. Lors de l'affichage des informations de la liste, sélectionnez *Filter*.
+. Choisissez un nom de colonne à filtrer dans le menu déroulant.
+. Sélectionnez une contrainte pour la colonne.
+. Saisissez le texte à filtrer par.
+. Sélectionnez *Ajouter filtre*.
++
+Le système exécute le nouveau filtre sur les informations de la liste et stocke temporairement le nouveau filtre. Le filtre sélectionné s'affiche en bas de la boîte de dialogue de filtre.
+
+. (Facultatif) vous pouvez ajouter un autre filtre en effectuant les étapes suivantes :
++
+.. Sélectionnez un autre en-tête de colonne et une autre contrainte.
+.. Sélectionnez *Ajouter filtre*.
+
+
+. (Facultatif) sélectionnez (*x*) pour supprimer les filtres et afficher les informations de la liste non filtrée.
+
+
+
+NOTE: Certaines tables incluent l'option d'exclure des colonnes de la vue. Pour de meilleurs résultats, sélectionnez *colonnes* pour confirmer que toutes les colonnes requises s'affichent lors de la définition des filtres.
+
+
+
+== Trier les listes
+
+Vous pouvez trier les informations de liste par une ou plusieurs colonnes de certaines pages dans l'interface utilisateur de SolidFire Active IQ. Cela vous aide à organiser les informations dont vous avez besoin à l'écran.
+
+.Étapes
+. Pour trier une seule colonne, sélectionnez l'en-tête de la colonne jusqu'à ce que les informations soient triées dans l'ordre souhaité.
+. Pour trier plusieurs colonnes, procédez comme suit :
++
+.. Sélectionnez l'en-tête de colonne de la première colonne à trier jusqu'à ce que les informations soient triées dans l'ordre souhaité.
+.. Pour ajouter une colonne, maintenez la touche de commande enfoncée et sélectionnez l'en-tête de la colonne jusqu'à ce que les informations soient triées dans l'ordre souhaité. Vous pouvez ajouter plusieurs colonnes.
+
+
++
+Cette fonctionnalité n'est pas disponible sur toutes les pages.
+
+
+
+
+
+== Affichez les graphiques et sélectionnez les plages de dates
+
+Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lorsque vous sélectionnez une plage de dates, tous les graphiques de cette page s'ajustent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours.
+
+Vous pouvez sélectionner une plage de dates dans la liste déroulante du calendrier ou à partir d'un ensemble de plages prédéfinies. Les plages de dates sont calculées à l'aide de l'heure actuelle du navigateur (au moment de la sélection) et de la durée configurée. En outre, vous pouvez sélectionner l'intervalle souhaité en vous brossant directement sur le graphique à barres en bas. Le cas échéant, passez d'un graphique à l'autre en sélectionnant la disposition des vignettes sur la gauche. Ces mises en page peuvent également être masquées.
+
+Positionnez le pointeur de la souris sur une ligne de graphique pour afficher les détails de point dans le temps.
+
+.Développez l'exemple de graphique
+====
+image:graphs_and_date_ranges.PNG["Graphiques et plages de dates"]
+
+====
+
+
+== Exporter les vues de listes et les données de rapport
+
+Vous pouvez exporter une liste entière ou des données de graphe dans un format CSV (valeurs séparées par des virgules). Pour certaines listes, par exemple, cluster ou nœuds, vous pouvez sélectionner les colonnes à exporter ; par défaut, les colonnes affichées sont sélectionnées. S'il existe un certain ordre de tri ou si un filtre est utilisé pour limiter les entrées affichées, cet ordre de tri et ce filtre sont conservés dans le fichier exporté.
+
+.Étapes
+. Dans une liste ou un graphique, sélectionnez le image:export_button.PNG["Bouton Exporter"] icône.
+
+
+
+
+== Sélectionnez un cluster
+
+Dans SolidFire Active IQ, vous pouvez afficher des informations sur un cluster individuel dans votre environnement.
+
+.Étapes
+. Depuis le tableau de bord SolidFire Active IQ, sélectionnez *Sélectionner un cluster*.
+. Le menu déroulant répertorie les clusters disponibles.
+. Utilisez le champ de recherche pour localiser le cluster souhaité ou les clusters récemment affichés.
+. Sélectionnez le nom du cluster.
+
+
+
+
+== Référence de l'icône
+
+Lors de l'affichage de l'interface utilisateur de SolidFire Active IQ, les icônes suivantes peuvent s'afficher.
+
+[cols="25,75"]
+|===
+| Icône | Description 
+
+
+ a| 
+image:refresh.PNG["Icône Actualiser"]
+| Actualisez 
+
+
+ a| 
+image:filter.PNG["Icône de filtre"]
+| Filtre 
+
+
+ a| 
+image:export_button.PNG["Bouton Exporter"]
+| Exporter 
+
+
+ a| 
+image:menu.PNG["Icône de menu"]
+| Menu pour les paramètres du compte, la documentation, les commentaires, l'assistance et la déconnexion. 
+
+
+ a| 
+image:copy.PNG["Icône Copier dans le presse-papiers"]
+| Sélectionnez une fois pour copier dans le presse-papiers. 
+
+
+ a| 
+image:wrap_toggle.PNG["Basculer entre le texte d'habillage"]
+image:unwrap_toggle.PNG["Basculer entre le texte d'habillage"]
+| Basculer le bouton pour envelopper et annuler l'habillage du texte. 
+
+
+ a| 
+image:more_information.PNG["Icône plus d'informations"]
+| Plus d'informations. Sélectionnez pour d'autres options. 
+
+
+ a| 
+image:more_details.PNG["Icône plus de détails"]
+| Sélectionnez pour plus de détails. 
+|===
+
+
+== Laisser des commentaires
+
+Vous pouvez aider à améliorer l'interface utilisateur d'SolidFire Active IQ et à résoudre tous les problèmes liés à l'interface utilisateur à l'aide de l'option de commentaires par e-mail accessible via l'interface utilisateur.
+
+.Étapes
+. Dans n'importe quelle page de l'interface utilisateur, sélectionnez image:menu.PNG["Icône de menu"] Et sélectionnez *Feedback*.
+. Saisissez les informations pertinentes dans le corps du message de l'e-mail.
+. Joignez toutes les captures d'écran utiles.
+. Sélectionnez *Envoyer*.
+
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

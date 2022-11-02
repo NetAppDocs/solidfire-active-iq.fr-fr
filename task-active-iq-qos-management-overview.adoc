@@ -1,0 +1,26 @@
+---
+permalink: task-active-iq-qos-management-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes 
+summary: Découvrez la page de gestion de la QoS dans SolidFire Active IQ. 
+---
+= Gestion de la QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+À partir de la page *QoS Management*, disponible dans le panneau latéral d'un cluster sélectionné, vous pouvez afficher des informations sur les recommandations relatives à la qualité de service et l'accélération des nœuds d'un cluster.
+
+Découvrez comment afficher les informations relatives aux recommandations en matière de QoS et à l'accélération d'un nœud sélectionné :
+
+* link:task-active-iq-recommendations.html["Recommandations"]
+* link:task-active-iq-throttling.html["Accélération des nœuds"]
+
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

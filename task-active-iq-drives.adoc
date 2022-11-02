@@ -1,0 +1,55 @@
+---
+permalink: task_active_iq_drives.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, drives 
+summary: En savoir plus sur la page lecteurs de SolidFire Active IQ. 
+---
+= Disques
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Chaque nœud contient un ou plusieurs disques physiques qui sont utilisés pour stocker une partie des données pour le cluster. Le cluster utilise la capacité et les performances du disque une fois celui-ci ajouté au cluster.
+
+Sur la page *lecteurs*, disponible dans le panneau latéral d'un groupe sélectionné, vous pouvez filtrer la page en sélectionnant les onglets *actif*, *disponible* et *échec*.
+
+Les informations suivantes sont disponibles pour chaque disque du cluster en fonction de l'état de la fonctionnalité disque :
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| ID de disque | Numéro séquentiel attribué au disque. 
+
+
+| ID de nœud | Numéro de nœud attribué lorsque le nœud est ajouté au cluster. 
+
+
+| ID de service | ID de service actuel du service de bloc ou de tranche associé au lecteur. 
+
+
+| Fente | Numéro de slot où le lecteur est physiquement situé. 
+
+
+| Puissance | Taille en gigaoctets du disque. 
+
+
+| Version du micrologiciel | Version du micrologiciel du lecteur. 
+
+
+| Série | Numéro de série du disque SSD. 
+
+
+| Usure | Indicateur de niveau d'usure restant. 
+
+
+| Type | Le type de disque peut être un bloc ou des métadonnées. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

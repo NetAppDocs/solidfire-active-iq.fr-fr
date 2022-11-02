@@ -1,0 +1,52 @@
+---
+permalink: concept-active-iq-learn-about-active-iq.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, learn 
+summary: Découvrez SolidFire Active IQ. 
+---
+= Découvrez SolidFire Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Avant de commencer à utiliser SolidFire Active IQ, vous devez savoir comment SolidFire Active IQ fonctionne et quelles informations il collecte.
+
+
+
+== Fonctionnement de SolidFire Active IQ
+
+Les services tels que le collecteur et la télémétrie s'exécutent sur un nœud de gestion. Ces services sont configurés avec un accès en lecture seule à un cluster et ils permettent d'appeler une API sur un cluster selon une planification définie afin de collecter les metrics de performance, de capacité et d'état de santé clés. Ces informations sont téléchargées sur la base de données cloud SolidFire Active IQ à l'aide de HTTPS, où elles sont traitées et mises à disposition par vous et le support NetApp via l'interface utilisateur d'SolidFire Active IQ. Vous pouvez afficher les derniers intervalles de collecte et de données utiles de l'API reçus pour un cluster dans l'interface utilisateur SolidFire Active IQ en vous connectant à l'aide de vos informations d'identification SSO et en sélectionnant *collecte d'API* dans le menu déroulant *Rapport*.
+
+link:https://activeiq.solidfire.com/["Accéder à SolidFire Active IQ (connexion requise)"^]
+
+
+
+== Informations collectées par SolidFire Active IQ
+
+SolidFire Active IQ collecte des informations sur les volumes, les clusters, les nœuds, les performances et les configurations :
+
+* Les ID de ressource tels que les ID de volume, de snapshots et de nœud de compte
+* Données de performances et de capacité pour les clusters et les volumes
+* Historique des erreurs et des événements
+* Versions des logiciels NetApp HCI et Element
+* Configurations de qualité de service (QoS)
+* Détails du volume tels que la taille, la date de création, etc
+* Configurations de sessions et de groupes d'accès aux volumes
+* Configurations réseau de nœuds et de clusters
+
+
+SolidFire Active IQ ne recueille pas les informations sensibles client suivantes :
+
+* Données réelles de l'utilisateur final
+* Mots de passe
+* Secrets CHAP (Challenge-Handshake Authentication Protocol)
+* Informations sur l'utilisateur administratif du cluster
+
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]
