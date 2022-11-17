@@ -1,0 +1,181 @@
+---
+permalink: task-active-iq-all-nodes-view.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes, all, throttling, throttled 
+summary: Découvrez la page Affichage de tous les nœuds dans SolidFire Active IQ. 
+---
+= Vue tous les nœuds
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez afficher des informations sur tous les nœuds d'une entreprise, y compris les nœuds restreints, lorsque vous sélectionnez le nom de l'entreprise dans la liste déroulante *tous les nœuds View*. Une fois le nom de la société sélectionné, il remplace *tous les noeuds Affichage* dans la barre de navigation supérieure.
+
+
+NOTE: Si un seul nom d'entreprise est associé à votre compte SolidFire Active IQ, les pages *tous les nœuds* et *nœuds restreints*, disponibles dans le panneau latéral, sont par défaut associées au nom de l'entreprise.
+
+En savoir plus sur les pages tous les nœuds et nœuds restreints :
+
+*  information about all nodes
+*  information about throttled nodes
+
+
+
+
+== Afficher les informations relatives à tous les nœuds
+
+Sur la page *tous les nœuds*, disponible dans le panneau latéral, vous pouvez afficher des informations sur tous les nœuds de la société sélectionnée.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| ID de cluster | Numéro de cluster attribué lors de la création du cluster. 
+
+
+| Cluster | Nom attribué au cluster. 
+
+
+| ID de nœud | ID généré par le système pour le nœud. 
+
+
+| État  a| 
+L'état du nœud :
+
+* Sain : le nœud n'a aucune erreur critique associée.
+* Hors ligne : impossible d'accéder au nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+* Erreur : des erreurs sont associées à ce nœud. Sélectionnez le lien pour afficher le journal des erreurs.
+
+
+
+
+| Nom | Nom du nœud généré par le système. 
+
+
+| Type | Affiche le type de modèle du nœud. 
+
+
+| Numéro de série | Numéro de série unique attribué au nœud. 
+
+
+| Version | Version du logiciel Element sur le nœud. 
+
+
+| IP de gestion | Adresse IP de gestion attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE. 
+
+
+| IP de stockage | Adresse IP de stockage attribuée au nœud utilisé pour la détection du réseau iSCSI et à tout le trafic du réseau de données. 
+
+
+| Rôle  a| 
+Identifie le rôle qui y est attribué au nœud dans le cluster :
+
+* Cluster Master : nœud qui effectue des tâches administratives au niveau du cluster et contient l'adresse IP virtuelle de gestion et l'adresse IP virtuelle de stockage.
+* Nœud ensemble : nœud qui participe au cluster. Il y a trois ou cinq nœuds d'ensemble en fonction de la taille du groupe.
+* Fibre Channel : nœud FC dans le cluster.
+* Si un nœud n'a pas de rôle, la valeur est définie sur - (tiret).
+
+
+|===
+
+
+== Permet d'afficher des informations sur les nœuds restreints
+
+Sur la page *nœuds restreints*, disponible dans le panneau latéral, vous pouvez afficher les informations de tous les nœuds avec une accélération supérieure à 1 % au cours des 30 derniers jours pour votre société sélectionnée.
+
+Vous avez la possibilité d'afficher des nœuds avec un temps d'étranglement *élevé*, *limité* ou *combiné* (élevé et limité). Vous pouvez également afficher les descriptions de la table d'accélération des nœuds et des options d'accélération élevée, limitée et combinée en sélectionnant le image:description.PNG["description"] comme indiqué dans l'exemple suivant :
+
+image:throttled_nodes.PNG["Descriptions des nœuds restreints et des temps d'accélération"]
+
+En savoir plus sur les informations disponibles pour les nœuds restreints.
+
+[cols="25,75"]
+|===
+| En-tête | Description 
+
+
+| ID de cluster | Numéro de cluster attribué lors de la création du cluster. 
+
+
+| Cluster | Nom attribué au cluster. 
+
+
+| ID de nœud | ID généré par le système pour le nœud. 
+
+
+| Nom | Nom du nœud généré par le système. 
+
+
+| Type | Affiche le type de modèle du nœud. 
+
+
+| Version | Version du logiciel Element sur le nœud. 
+
+
+ a| 
+*Vue temps d'accélération élevé*
+
+
+
+| Accélérateur élevé dernières 24 heures | Pourcentage d'accélération de nœud élevée au cours des dernières 24 heures. 
+
+
+| Accélération élevée au cours des 7 derniers jours | Pourcentage d'accélération de nœud élevée au cours des 7 derniers jours. 
+
+
+| Accélération élevée au cours des 14 derniers jours | Pourcentage d'accélération de nœud élevée au cours des 14 derniers jours. 
+
+
+| Accélération élevée au cours des 30 derniers jours | Pourcentage d'accélération de nœud élevée au cours des 30 derniers jours. 
+
+
+ a| 
+*Vue de temps de restriction limitée*
+
+
+
+| Accélération limitée dernières 24 heures | Pourcentage d'accélération de nœud limitée au cours des 24 dernières heures. 
+
+
+| Accélération limitée 7 derniers jours | Pourcentage d'accélération de nœud limitée au cours des 7 derniers jours. 
+
+
+| Accélération limitée 14 derniers jours | Pourcentage d'accélération de nœud limitée au cours des 14 derniers jours. 
+
+
+| Accélération limitée 30 derniers jours | Pourcentage d'accélération de nœud limitée au cours des 30 derniers jours. 
+
+
+ a| 
+*Vue de temps d'accélération combinée*
+
+
+
+| Accélération combinée dernières 24 heures | Pourcentage d'accélération combinée des nœuds au cours des 24 dernières heures. 
+
+
+| Accélération combinée au cours des 7 derniers jours | Pourcentage d'accélération combinée des nœuds au cours des 7 derniers jours. 
+
+
+| Accélération combinée au cours des 14 derniers jours | Pourcentage d'accélération combinée des nœuds au cours des 14 derniers jours. 
+
+
+| Accélération combinée au cours des 30 derniers jours | Pourcentage d'accélération combinée des nœuds au cours des 30 derniers jours. 
+
+
+| Débit moyen au cours des 30 dernières minutes | Somme des débits moyens exécutés au cours des 30 dernières minutes sur tous les volumes qui ont ce nœud comme étant leur primaire. 
+
+
+| IOPS moyennes au cours des 30 dernières minutes | Somme du nombre moyen d'IOPS exécutées au cours des 30 dernières minutes sur tous les volumes sur lesquels ce nœud est leur stockage primaire. 
+
+
+| Latence moyenne (µs) les 30 dernières minutes | Temps moyen en microsecondes, mesuré au cours des 30 dernières minutes, pour terminer les opérations de lecture et d'écriture sur tous les volumes qui ont ce nœud comme principal. Pour signaler cette mesure basée sur des volumes actifs, seules des valeurs de latence autres que zéro sont utilisées. 
+|===
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

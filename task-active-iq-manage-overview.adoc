@@ -23,6 +23,7 @@ En savoir plus sur l'utilisation de link:https://activeiq.solidfire.com/["SolidF
 * link:task-active-iq-qos-management-overview.html["Gestion de la QoS"]
 * link:task-active-iq-virtual-machines.html["Machines virtuelles (clusters NetApp HCI uniquement)"]
 * link:task-active-iq-vmware-alarms.html["Alarmes VMware (clusters NetApp HCI uniquement)"]
+* link:task-active-iq-all-nodes-view.html["Vue tous les nœuds"]
 
 
 
