@@ -15,8 +15,8 @@ summary: Découvrez la page nœuds actifs dans SolidFire Active IQ.
 
 Les détails disponibles varient en fonction de votre système :
 
-*  SolidFire storage node details
-*  NetApp HCI storage and compute node details
+* <<Afficher les détails des nœuds de stockage SolidFire>>
+* <<Consultez les détails des nœuds de calcul et de stockage NetApp HCI>>
 
 
 
@@ -111,8 +111,8 @@ Sur la page *Nodes*, la barre d'informations fournit un aperçu rapide des donn�
 
 Pour en savoir plus sur l'affichage des informations sur les nœuds de stockage et de calcul dans un cluster NetApp HCI :
 
-*  information about storage nodes
-*  information about compute nodes
+* <<Afficher des informations sur les nœuds de stockage>>
+* <<Afficher des informations sur les nœuds de calcul>>
 
 
 

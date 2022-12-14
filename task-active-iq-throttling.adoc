@@ -15,8 +15,8 @@ summary: Découvrez la page accélération des nœuds dans SolidFire Active IQ.
 
 Pour en savoir plus sur l'affichage des informations d'accélération des nœuds :
 
-*  graphs and select date ranges
-*  node throttling data
+* <<Affichez les graphiques et sélectionnez les plages de dates>>
+* <<Exporter les données d'accélération de nœud>>
 
 
 
@@ -30,6 +30,7 @@ Vous pouvez sélectionner une plage de dates dans la liste déroulante du calend
 Les graphiques affichent l'accélération du nœud sur la période sélectionnée en fonction des paramètres d'IOPS minimal et maximal des volumes hébergés sur le nœud sélectionné. La couleur représente la quantité d'étranglement : vert (aucun), jaune (limité) ou rouge (élevé). Pour plus d'informations, reportez-vous au graphique suivant exemple :
 
 .Développez l'exemple de graphique
+[%collapsible]
 ====
 image:node_throttling_range.PNG["Graphique d'accélération des nœuds"]
 

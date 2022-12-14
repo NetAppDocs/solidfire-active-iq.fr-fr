@@ -15,11 +15,11 @@ summary: Découvrez la page relative aux volumes virtuels dans SolidFire Active 
 
 Découvrez les tâches liées aux VVol :
 
-*  Volumes
-*  Containers
-*  Endpoints
-* 
-* 
+* <<Volumes virtuels>>
+* <<Conteneurs de stockage>>
+* <<Terminaux PE>>
+* <<Hôtes>>
+* <<Liaisons>>
 
 
 

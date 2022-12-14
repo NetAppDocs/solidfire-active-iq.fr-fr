@@ -15,17 +15,17 @@ Dans le menu déroulant *Alerts* de *All clusters View*, vous pouvez afficher l'
 
 Découvrez ou effectuez des tâches liées aux alertes :
 
-*  alerts history
-*  history details
-*  alert policies
-* ,Création d'une règle d'alerte
-* ,Types de règles d'alerte
-*  an alert policy
-*  an alert policy
-*  suppressed clusters
-*  cluster notifications
-*  cluster suppression from a cluster
-*  notification email
+* <<Afficher l'historique des alertes>>
+* <<Détails de l'historique des alertes>>
+* <<Afficher les règles d'alerte>>
+* <<create_alert_policy,Création d'une règle d'alerte>>
+* <<alert_policy_types,Types de règles d'alerte>>
+* <<Modifiez une règle d'alerte>>
+* <<Supprimez une règle d'alerte>>
+* <<Afficher les clusters supprimés>>
+* <<Supprimez les notifications de cluster>>
+* <<Suppression du bloc d'instruments d'extrémité d'un cluster>>
+* <<E-mail de notification d'alerte>>
 
 
 
@@ -138,7 +138,7 @@ Vous pouvez créer une règle d'alerte pour surveiller les informations à parti
 .Étapes
 . Sélectionnez *alertes* > *stratégies*.
 . Sélectionnez *Créer une stratégie*.
-. Sélectionnez un type d'alerte dans la liste *Type de police*. Voir ,Types de règles d'alerte.
+. Sélectionnez un type d'alerte dans la liste *Type de police*. Voir <<alert_policy_types,Types de règles d'alerte>>.
 +
 
 NOTE: Il existe d'autres champs spécifiques à une stratégie dans la boîte de dialogue *Créer une stratégie* en fonction du type de stratégie sélectionné.
@@ -335,7 +335,7 @@ Vous pouvez supprimer les notifications d'alertes au niveau du cluster pour un o
 . Dans la boîte de dialogue *Supprimer les alertes pour le cluster*, procédez comme suit :
 +
 .. Si vous avez sélectionné le bouton *Supprimer les clusters* dans la page *clusters supprimés*, sélectionnez un cluster.
-.. Sélectionnez un type de suppression d'alerte : *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Réseau* ou *puissance*. ,Découvrez les types de suppression.
+.. Sélectionnez un type de suppression d'alerte : *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Réseau* ou *puissance*. <<suppressed_types,Découvrez les types de suppression>>.
 +
 
 NOTE: Un cluster peut avoir plusieurs types de suppression mais ne peut pas partager un type de suppression. Par exemple, un cluster peut avoir une suppression *Full*, *Compute* et *Drive*, mais pas deux suppressions *Full*. Lorsqu'une suppression existe déjà sur un cluster, elle est grisée. Pour remplacer une suppression existante, sélectionnez *remplacer existant* et sélectionnez le nouveau type de suppression.
@@ -383,7 +383,7 @@ Les abonnés aux alertes SolidFire Active IQ reçoivent différents e-mails d'é
 
 | Alerte - E-mail résolu | Ce type d'e-mail est envoyé lorsque le problème est résolu. 
 |===
-Après la création d'une règle d'alerte et si une nouvelle alerte est générée pour cette règle, un e-mail est envoyé à l'adresse e-mail désignée (voir la ,Créer une règle d'alerte).
+Après la création d'une règle d'alerte et si une nouvelle alerte est générée pour cette règle, un e-mail est envoyé à l'adresse e-mail désignée (voir la <<create_alert_policy,Créer une règle d'alerte>>).
 
 La ligne d'objet de l'e-mail d'alerte utilise l'un des formats suivants en fonction du type d'erreur signalé :
 

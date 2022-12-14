@@ -13,8 +13,8 @@ summary: 'Pour en savoir plus sur l"affichage des détails des snapshots et des 
 [role="lead"]
 Pour en savoir plus sur l'affichage d'informations sur les instantanés et les planifications de snapshots :
 
-* 
-*  Schedules
+* <<Snapshots>>
+* <<Planifications Snapshot>>
 
 
 

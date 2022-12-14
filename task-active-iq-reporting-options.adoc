@@ -13,15 +13,15 @@ summary: Découvrez les options de reporting pour un cluster sélectionné dans 
 [role="lead"]
 Découvrez le menu déroulant *Reporting* dans le panneau latéral :
 
-* 
-* 
-* 
-*  log
-* 
-* 
-*  Sessions
-*  Networks
-*  Collection
+* <<Puissance>>
+* <<Efficacité>>
+* <<Performance>>
+* <<Journal d'erreurs>>
+* <<Événements>>
+* <<Alertes>>
+* <<Sessions iSCSI>>
+* <<Réseaux virtuels>>
+* <<Collecte d'API>>
 
 
 
@@ -251,6 +251,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 Sur la page *sessions iSCSI* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur le nombre de sessions actives sur le cluster et sur le nombre de sessions iSCSI qui se sont produites sur le cluster.
 
 .Développez l'exemple de sessions iSCSI
+[%collapsible]
 ====
 image:iscsi_sessions.PNG["Sessions iSCSI"]
 

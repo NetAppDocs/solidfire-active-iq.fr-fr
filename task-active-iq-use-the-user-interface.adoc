@@ -13,13 +13,13 @@ summary: 'Découvrez les fonctionnalités de l"interface utilisateur dans SolidF
 [role="lead"]
 Découvrez les fonctionnalités de l'interface utilisateur dans link:https://activeiq.solidfire.com/["SolidFire Active IQ (connexion requise)"^]:
 
-*  filters
-*  lists
-*  graphs and select date ranges
-*  list views and report data
-*  a cluster
-*  reference
-*  feedback
+* <<Utiliser des filtres>>
+* <<Trier les listes>>
+* <<Affichez les graphiques et sélectionnez les plages de dates>>
+* <<Exporter les vues de listes et les données de rapport>>
+* <<Sélectionnez un cluster>>
+* <<Référence de l'icône>>
+* <<Laisser des commentaires>>
 
 
 
@@ -79,6 +79,7 @@ Vous pouvez sélectionner une plage de dates dans la liste déroulante du calend
 Positionnez le pointeur de la souris sur une ligne de graphique pour afficher les détails de point dans le temps.
 
 .Développez l'exemple de graphique
+[%collapsible]
 ====
 image:graphs_and_date_ranges.PNG["Graphiques et plages de dates"]
 

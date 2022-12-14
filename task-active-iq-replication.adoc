@@ -15,8 +15,8 @@ La page *Replication*, disponible dans le panneau latéral d'un cluster sélecti
 
 En savoir plus sur les pages paires de clusters et de volumes :
 
-* ,Paires de clusters
-* ,Paires de volume
+* <<cluster_pairs,Paires de clusters>>
+* <<volume_pairs,Paires de volume>>
 
 
 

@@ -17,8 +17,8 @@ Sélectionnez le menu déroulant *Afficher les détails* pour afficher plus d'in
 
 Les détails disponibles varient en fonction de votre système :
 
-*  system
-*  HCI system overview
+* <<Système de stockage uniquement>>
+* <<Présentation du système NetApp HCI>>
 
 
 

@@ -18,8 +18,8 @@ NOTE: Si un seul nom d'entreprise est associé à votre compte SolidFire Active 
 
 En savoir plus sur les pages tous les nœuds et nœuds restreints :
 
-*  information about all nodes
-*  information about throttled nodes
+* <<Afficher les informations relatives à tous les nœuds>>
+* <<Permet d'afficher des informations sur les nœuds restreints>>
 
 
 

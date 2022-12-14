@@ -13,9 +13,9 @@ summary: 'Pour en savoir plus sur l"affichage des détails de volume dans SolidF
 [role="lead"]
 À partir de la page *volumes*, vous pouvez afficher des détails sur les volumes actifs, les volumes individuels et les graphiques de performance :
 
-*  active volume details
-*  individual volume details
-*  individual volume performance graphs
+* <<Afficher les détails du volume actif>>
+* <<Afficher les détails individuels du volume>>
+* <<Affichez des graphiques de performance de volume individuels>>
 
 
 
