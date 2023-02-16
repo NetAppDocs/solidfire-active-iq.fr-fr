@@ -547,7 +547,6 @@
   <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">La stratégie est définitivement supprimée du système.</block>
   <block id="685a82571a4b315892d300d3410d13b9" category="section-title">Afficher les clusters supprimés</block>
   <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">Sur la page *clusters supprimés* du menu déroulant *alertes* dans *Affichage de tous les clusters*, vous pouvez afficher la liste des clusters dont les notifications d'alerte ont été supprimées.</block>
-  <block id="d8d9aa68c453cb9b41b4de4fced325c7" category="paragraph">Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie.</block>
   <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">Les informations suivantes sont disponibles sur la page *clusters supprimés*.</block>
   <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">Nom de l'entreprise attribué au cluster.</block>
   <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">ID de cluster</block>
@@ -555,12 +554,10 @@
   <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="cell">Nom de cluster</block>
   <block id="e3d5f2a7512ede9e52a01c31493bfb81" category="cell">Nom attribué au cluster.</block>
   <block id="2bbc845892f400626baab5af687527c5" category="cell">Heure de début</block>
-  <block id="4820b9ef9bd7442acc6ccdf08f9614d3" category="cell">Heure exacte de début de la suppression des notifications.</block>
   <block id="c91a577b72313356fad611c55f43c10f" category="cell">Heure de fin</block>
   <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">Heure exacte à laquelle la suppression des notifications est planifiée</block>
   <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">Sélectionnez l'option pour supprimer ou reprendre les notifications d'un cluster.</block>
   <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">Supprimez les notifications de cluster</block>
-  <block id="9858acb2dd14a30e26cf805c6de0730a" category="paragraph">Vous pouvez supprimer les notifications d'alertes au niveau du cluster pour un ou plusieurs clusters.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Effectuez l'une des opérations suivantes :</block>
   <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">Dans la vue d'ensemble *Dashboard*, sélectionnez le menu actions du cluster que vous souhaitez supprimer.</block>
   <block id="36dbb4ac73c2a1146dafa537aa33167b" category="list-text">Dans *Alerts* &gt; *Cluster Suppression*, sélectionnez *Supress clusters*.</block>
@@ -568,7 +565,6 @@
   <block id="3faf81240a474d1bab3caae427a0b972" category="list-text">Si vous avez sélectionné le bouton *Supprimer les clusters* dans la page *clusters supprimés*, sélectionnez un cluster.</block>
   <block id="d9eec58efcbfdf3d4c1babd111ed996c" category="inline-xref">Découvrez les types de suppression</block>
   <block id="cb886f47c22a31667b6be5251d178c52" category="list-text">Sélectionnez un type de suppression d'alerte : *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Réseau* ou *puissance*. <block ref="a879a530d2e9cfbfff346e782418a668" category="inline-xref-macro-rx"></block>.</block>
-  <block id="dbb77a21634d63a653c797feb9464c44" category="admonition">Un cluster peut avoir plusieurs types de suppression mais ne peut pas partager un type de suppression. Par exemple, un cluster peut avoir une suppression *Full*, *Compute* et *Drive*, mais pas deux suppressions *Full*. Lorsqu'une suppression existe déjà sur un cluster, elle est grisée. Pour remplacer une suppression existante, sélectionnez *remplacer existant* et sélectionnez le nouveau type de suppression.</block>
   <block id="d2f9ee75eef16569d25256f62c3285af" category="list-text">Sélectionnez une durée commune ou entrez une date et une heure de fin personnalisées pendant lesquelles les notifications doivent être supprimées.</block>
   <block id="399e38cad3fefa8ffc7773b5e82ba0a4" category="list-text">Sélectionnez *Supprimer*.</block>
   <block id="55c71a545e88a736b0fd984ef1cf9011" category="admonition">Cette action supprime également certaines notifications ou toutes les notifications du support NetApp. Après la suppression du cluster, le support NetApp ou tout utilisateur autorisé à afficher le cluster peut mettre à jour l'état de suppression.</block>
@@ -1066,4 +1062,12 @@
   <block id="f15e45347229ad94158fcbd6d2423fb7" category="cell">Pourcentage d'accélération combinée des nœuds au cours des 30 derniers jours.</block>
   <block id="13b17ea50aa3270a0eb1ac21882cd1b6" category="cell">Sélectionnez pour plus de détails.<block ref="b88c7530ca9d8b23f1e4691f94e3f70b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="db2e76d805debcb4c30511df6e0aecf1" category="list-text"><block ref="db2e76d805debcb4c30511df6e0aecf1" category="inline-link-macro-rx"></block></block>
+  <block id="0e3b63363a35e9f7a5dee72963106a92" category="paragraph">Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie. Vous pouvez arrêter la suppression des notifications plus tôt en sélectionnant « reprendre les notifications » dans le menu déroulant.</block>
+  <block id="1b1b4ed1e5c3651d0098e519d90608f1" category="cell">Heure exacte de début ou de début de la suppression des notifications.</block>
+  <block id="57347427d54a8b3062a13502efbb0b39" category="paragraph">Indique l'état d'une notification d'alerte :</block>
+  <block id="4e5f06cf705243a2cf7308548afc1545" category="list-text">*Actif* : la suppression des notifications d'alerte est active.</block>
+  <block id="50530d3f54881ad7130c640aaca2dbae" category="list-text">*Future* : la suppression des notifications d'alerte est prévue pour une date et une heure futures.</block>
+  <block id="57829e1c527aadb9862b10c223954f81" category="paragraph">Vous pouvez supprimer les notifications d'alerte au niveau du cluster pour un ou plusieurs clusters. Pour commencer à une date et une heure actuelles, vous pouvez ensuite supprimer ces notifications.</block>
+  <block id="fb0d7f8aefdf99cea1fcfde269bee06a" category="admonition">Un cluster peut avoir plusieurs types de suppression, ce qui peut inclure plusieurs sélections du même type de suppression. Lorsqu'un type de suppression existe déjà pendant une fenêtre de suppression planifiée, il est grisé. Pour sélectionner à nouveau ce type de suppression, sélectionnez *chevauchement existant*. Les sélections multiples du même type de suppression peuvent avoir des temps de chevauchement ou, si vous planifiez des suppressions futures, être à différents moments. Lorsque deux suppressions de temps se chevauchent, la fonctionnalité est la même qu'avec une suppression unique, avec une heure de début commençant au plus tôt par les suppressions et une heure de fin se terminant au plus tard.</block>
+  <block id="8c585eacf0d12977061621d6833ec987" category="list-text">Sélectionnez la date et l'heure de début de la suppression des notifications.</block>
 </blocks>

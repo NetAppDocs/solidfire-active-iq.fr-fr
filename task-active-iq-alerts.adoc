@@ -279,7 +279,7 @@ La stratégie est définitivement supprimée du système.
 
 Sur la page *clusters supprimés* du menu déroulant *alertes* dans *Affichage de tous les clusters*, vous pouvez afficher la liste des clusters dont les notifications d'alerte ont été supprimées.
 
-Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie.
+Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie. Vous pouvez arrêter la suppression des notifications plus tôt en sélectionnant « reprendre les notifications » dans le menu déroulant.
 
 Les informations suivantes sont disponibles sur la page *clusters supprimés*.
 
@@ -297,7 +297,7 @@ Les informations suivantes sont disponibles sur la page *clusters supprimés*.
 | Nom de cluster | Nom attribué au cluster. 
 
 
-| Heure de début | Heure exacte de début de la suppression des notifications. 
+| Heure de début | Heure exacte de début ou de début de la suppression des notifications. 
 
 
 | Heure de fin | Heure exacte à laquelle la suppression des notifications est planifiée 
@@ -317,13 +317,22 @@ Détermine les alertes et les événements qui sont supprimés. Les types suivan
 
 
 
+| État  a| 
+Indique l'état d'une notification d'alerte :
+
+* *Actif* : la suppression des notifications d'alerte est active.
+* *Future* : la suppression des notifications d'alerte est prévue pour une date et une heure futures.
+
+
+
+
 | Actions | Sélectionnez l'option pour supprimer ou reprendre les notifications d'un cluster. 
 |===
 
 
 == Supprimez les notifications de cluster
 
-Vous pouvez supprimer les notifications d'alertes au niveau du cluster pour un ou plusieurs clusters.
+Vous pouvez supprimer les notifications d'alerte au niveau du cluster pour un ou plusieurs clusters. Pour commencer à une date et une heure actuelles, vous pouvez ensuite supprimer ces notifications.
 
 .Étapes
 . Effectuez l'une des opérations suivantes :
@@ -338,8 +347,9 @@ Vous pouvez supprimer les notifications d'alertes au niveau du cluster pour un o
 .. Sélectionnez un type de suppression d'alerte : *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Réseau* ou *puissance*. <<suppressed_types,Découvrez les types de suppression>>.
 +
 
-NOTE: Un cluster peut avoir plusieurs types de suppression mais ne peut pas partager un type de suppression. Par exemple, un cluster peut avoir une suppression *Full*, *Compute* et *Drive*, mais pas deux suppressions *Full*. Lorsqu'une suppression existe déjà sur un cluster, elle est grisée. Pour remplacer une suppression existante, sélectionnez *remplacer existant* et sélectionnez le nouveau type de suppression.
+NOTE: Un cluster peut avoir plusieurs types de suppression, ce qui peut inclure plusieurs sélections du même type de suppression. Lorsqu'un type de suppression existe déjà pendant une fenêtre de suppression planifiée, il est grisé. Pour sélectionner à nouveau ce type de suppression, sélectionnez *chevauchement existant*. Les sélections multiples du même type de suppression peuvent avoir des temps de chevauchement ou, si vous planifiez des suppressions futures, être à différents moments. Lorsque deux suppressions de temps se chevauchent, la fonctionnalité est la même qu'avec une suppression unique, avec une heure de début commençant au plus tôt par les suppressions et une heure de fin se terminant au plus tard.
 
+.. Sélectionnez la date et l'heure de début de la suppression des notifications.
 .. Sélectionnez une durée commune ou entrez une date et une heure de fin personnalisées pendant lesquelles les notifications doivent être supprimées.
 
 
