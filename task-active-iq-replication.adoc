@@ -17,6 +17,8 @@ En savoir plus sur les pages paires de clusters et de volumes :
 
 * <<cluster_pairs,Paires de clusters>>
 * <<volume_pairs,Paires de volume>>
+* <<snapmirror_endpoints,Terminaux SnapMirror>>
+* <<snapmirror_relationships,Relations SnapMirror>>
 
 
 
@@ -94,6 +96,97 @@ NOTE: Un volume cible dans un état de réplication actif a toujours un délai a
 |===
 
 
+== Terminaux SnapMirror
+
+Sur la page *Replication* > *SnapMirror Endpoints* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les terminaux SnapMirror.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID de point final | Le numéro d'identification du point final. 
+
+
+| Nom du cluster distant | Nom du cluster distant de la paire. 
+
+
+| IP de gestion de cluster | Adresse IP de gestion du cluster. 
+
+
+| IPS | Plage d'adresses IP de réseau virtuel utilisées pour le réseau virtuel. 
+
+
+| Relations | Nombre de relations configurées pour un noeud final. 
+
+
+| État | Indique si le point final est actuellement connecté ou non. Il a une valeur de *connecté* ou *déconnecté*. 
+|===
+
+
+== Relations SnapMirror
+
+Sur la page *Replication* > *SnapMirror Relationships* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les relations SnapMirror.
+
+[cols="30,70"]
+|===
+| En-tête | Description 
+
+
+| ID de point final | Le numéro d'identification du point final. 
+
+
+| Volume source | ID de volume de la source. 
+
+
+| Cluster de destination | Nom du cluster de destination dans la relation SnapMirror. 
+
+
+| Volume de destination | Nom du volume de destination dans la relation SnapMirror. 
+
+
+| État  a| 
+État de la relation de symétrie. Il peut avoir trois valeurs possibles :
+
+* Non initialisé : le volume de destination n'est pas initialisé.
+* Snapmirrored : le volume de destination est initialisé et est prêt à recevoir les mises à jour SnapMirror.
+* Broken-off : le volume de destination est en lecture-écriture et des snapshots sont présents.
+
+
+
+
+| État  a| 
+Si la relation est actuellement saine, elle peut avoir une valeur de *sain* ou *malsain*.
+
+
+NOTE: Lorsqu'une mise à jour manuelle ou planifiée échoue ou est abandonnée, ou que la dernière mise à jour planifiée est retardée, il peut en résulter une valeur *malsaine*. Le champ *Détails* suivant l'état affiche la raison de l'état *malsain*.
+
+
+
+| Type de relation  a| 
+Type de relation SnapMirror.
+
+
+NOTE: Sur les systèmes SolidFire, cette valeur est toujours définie sur `extended_data_protection`. Les systèmes NetApp disposent d'autres types de relations valides qui ne s'appliquent pas dans le cas des systèmes SolidFire.
+
+
+
+| État  a| 
+L'état du cluster :
+
+* Intégrité : aucune erreur critique n'est associée au cluster.
+* Offline : impossible d'accéder au cluster. Sélectionnez le lien pour afficher le journal des erreurs.
+* Défaut : des erreurs sont associées à ce cluster. Sélectionnez le lien pour afficher le journal des erreurs.
+
+
+
+
+| Détails | Informations permettant d'identifier la relation SnapMirror 
+|===
+
+
 == Trouvez plus d'informations
 
-https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]
+* https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]
+* https://docs.netapp.com/us-en/ontap/element-replication/index.html["Réplication entre le logiciel NetApp Element et ONTAP"^]
+

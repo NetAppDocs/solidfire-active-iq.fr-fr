@@ -66,7 +66,6 @@
   <block id="78cf8ce506d5cd24bcd85ed03795e147" category="cell">Numéro de série</block>
   <block id="99e27a3b4d4ede370056195c4b29c8df" category="cell">Numéro de série unique attribué au nœud.</block>
   <block id="32aa0bd7b7946c62f9c5214e91fa1db6" category="cell">IP de gestion</block>
-  <block id="0b78ef57d4dacade728a829821159de3" category="cell">Adresse IP de gestion MIP attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE.</block>
   <block id="70087224b93e8179deda7438fae8e843" category="cell">IP de cluster</block>
   <block id="4d08639c19d21e8b1b2dd93fd1ecb110" category="cell">Adresse IP de cluster attribuée au nœud utilisé pour la communication entre les nœuds du même cluster.</block>
   <block id="dbc7f5bd401ce78c24749d6c2a29fb42" category="cell">IP de stockage</block>
@@ -1070,4 +1069,41 @@
   <block id="57829e1c527aadb9862b10c223954f81" category="paragraph">Vous pouvez supprimer les notifications d'alerte au niveau du cluster pour un ou plusieurs clusters. Pour commencer à une date et une heure actuelles, vous pouvez ensuite supprimer ces notifications.</block>
   <block id="fb0d7f8aefdf99cea1fcfde269bee06a" category="admonition">Un cluster peut avoir plusieurs types de suppression, ce qui peut inclure plusieurs sélections du même type de suppression. Lorsqu'un type de suppression existe déjà pendant une fenêtre de suppression planifiée, il est grisé. Pour sélectionner à nouveau ce type de suppression, sélectionnez *chevauchement existant*. Les sélections multiples du même type de suppression peuvent avoir des temps de chevauchement ou, si vous planifiez des suppressions futures, être à différents moments. Lorsque deux suppressions de temps se chevauchent, la fonctionnalité est la même qu'avec une suppression unique, avec une heure de début commençant au plus tôt par les suppressions et une heure de fin se terminant au plus tard.</block>
   <block id="8c585eacf0d12977061621d6833ec987" category="list-text">Sélectionnez la date et l'heure de début de la suppression des notifications.</block>
+  <block id="28b4baca1ac41f0c9cbe42a9ec42628e" category="inline-xref">Terminaux SnapMirror</block>
+  <block id="ac1101609fb27790d21f3e5682730a46" category="list-text"><block ref="6106c5f20c38abc927c216f441b22257" category="inline-xref-macro-rx"></block></block>
+  <block id="b7bae3475f98c5511fcd900e6b4c8f8c" category="inline-xref">Relations SnapMirror</block>
+  <block id="ad2c46e1bdf00bc2c2373e711d1d2954" category="list-text"><block ref="c593ef727a82bdc9f5c1b753b116f514" category="inline-xref-macro-rx"></block></block>
+  <block id="f17f50f30412e2177a16f9b4da89f874" category="paragraph">Sur la page *Replication* &gt; *SnapMirror Endpoints* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les terminaux SnapMirror.</block>
+  <block id="6bb4d406451e3685e40319c445ae0352" category="cell">ID de point final</block>
+  <block id="32246b37b740b49b6825d9f37e2ee6c5" category="cell">Le numéro d'identification du point final.</block>
+  <block id="0e948943e8277507eeeec08bbb91d3b4" category="cell">IP de gestion de cluster</block>
+  <block id="6e24b6e3023bd7d9208c26111ae95b8d" category="cell">Adresse IP de gestion du cluster.</block>
+  <block id="fef48b3b39a9c7cdf35ffca8bf736a75" category="cell">IPS</block>
+  <block id="ea96be9e75d8d3d690aedae5040edf2f" category="cell">Relations</block>
+  <block id="8f8605419f690965c300901a20d62391" category="cell">Nombre de relations configurées pour un noeud final.</block>
+  <block id="718d288064e78f83f1ba4c375c26c029" category="cell">Indique si le point final est actuellement connecté ou non. Il a une valeur de *connecté* ou *déconnecté*.</block>
+  <block id="028ac3812784d5be0fd01695fc043cff" category="paragraph">Sur la page *Replication* &gt; *SnapMirror Relationships* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les relations SnapMirror.</block>
+  <block id="6b381cadf674c5e31b229c76f56806c5" category="cell">Volume source</block>
+  <block id="5fc8efaf812ad6d749473c5b1e7a1d08" category="cell">ID de volume de la source.</block>
+  <block id="3b63d6a8b8cc0fb1c86125151f2eca0a" category="cell">Cluster de destination</block>
+  <block id="64afd1e289d3d4ac65cd7bae034156d3" category="cell">Nom du cluster de destination dans la relation SnapMirror.</block>
+  <block id="61bf1d352b9b723607cb778169e813a0" category="cell">Volume de destination</block>
+  <block id="0ebc9eebbe2a97262f813b92e1f22992" category="cell">Nom du volume de destination dans la relation SnapMirror.</block>
+  <block id="46a2a41cc6e552044816a2d04634545d" category="cell">État</block>
+  <block id="1fdf08bae98f520da3e0d1b2000eabac" category="paragraph">État de la relation de symétrie. Il peut avoir trois valeurs possibles :</block>
+  <block id="8881a06cabd3e842b7977e9044018e5d" category="list-text">Non initialisé : le volume de destination n'est pas initialisé.</block>
+  <block id="baaef4c79409be356afa390f0a267777" category="list-text">Snapmirrored : le volume de destination est initialisé et est prêt à recevoir les mises à jour SnapMirror.</block>
+  <block id="8ea0f60fec4bd7852564eff6914e37e5" category="list-text">Broken-off : le volume de destination est en lecture-écriture et des snapshots sont présents.</block>
+  <block id="2177b3ffa647aac85952207f57133f55" category="paragraph">Si la relation est actuellement saine, elle peut avoir une valeur de *sain* ou *malsain*.</block>
+  <block id="163c9089cced4c196e834ce87a1ec90e" category="admonition">Lorsqu'une mise à jour manuelle ou planifiée échoue ou est abandonnée, ou que la dernière mise à jour planifiée est retardée, il peut en résulter une valeur *malsaine*. Le champ *Détails* suivant l'état affiche la raison de l'état *malsain*.</block>
+  <block id="2029c90a49e8add716fcc3051a0c01ff" category="cell">Type de relation</block>
+  <block id="b2896d0a757d4adea7b0bf1946d16ab9" category="paragraph">Type de relation SnapMirror.</block>
+  <block id="2e5e6f53be4c64301d71ec17f9666006" category="admonition">Sur les systèmes SolidFire, cette valeur est toujours définie sur<block ref="a6c02c92cdc6c7fe213f68be0ab9ee11" prefix=" " category="inline-code"></block>. Les systèmes NetApp disposent d'autres types de relations valides qui ne s'appliquent pas dans le cas des systèmes SolidFire.</block>
+  <block id="ddf35be1d25ba7857330965fdbcd63ec" category="paragraph">L'état du cluster :</block>
+  <block id="6c1691f6c440f43922bce2a3183b9614" category="list-text">Intégrité : aucune erreur critique n'est associée au cluster.</block>
+  <block id="353d8a4aaa6f9c840d2d0330d5cb9610" category="list-text">Offline : impossible d'accéder au cluster. Sélectionnez le lien pour afficher le journal des erreurs.</block>
+  <block id="9810bf56aaa37a450fe2ace2a59a888f" category="list-text">Défaut : des erreurs sont associées à ce cluster. Sélectionnez le lien pour afficher le journal des erreurs.</block>
+  <block id="9f360968c28895acf09b091f83e3603f" category="cell">Informations permettant d'identifier la relation SnapMirror</block>
+  <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">Réplication entre le logiciel NetApp Element et ONTAP</block>
+  <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
 </blocks>

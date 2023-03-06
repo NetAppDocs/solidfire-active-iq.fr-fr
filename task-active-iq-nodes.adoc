@@ -69,7 +69,7 @@ L'état du nœud :
 | Numéro de série | Numéro de série unique attribué au nœud. 
 
 
-| IP de gestion | Adresse IP de gestion MIP attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE. 
+| IP de gestion | Adresse IP de gestion attribuée au nœud pour les tâches d'administration réseau 1GbE ou 10GbE. 
 
 
 | IP de cluster | Adresse IP de cluster attribuée au nœud utilisé pour la communication entre les nœuds du même cluster. 
