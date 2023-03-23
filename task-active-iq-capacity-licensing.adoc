@@ -13,6 +13,8 @@ summary: Découvrez la page Capacity Licensing de SolidFire Active IQ.
 [role="lead"]
 Sur la page *Capacity Licensing* de la *vue tous les clusters*, vous pouvez afficher des informations sur le modèle NetApp Capacity Licensing. Ne tenez pas compte de cette page si vous utilisez des appliances SolidFire standard.
 
+Pour afficher un pool de licences de capacité donné, vous devez disposer des autorisations nécessaires pour afficher tous les clusters inclus dans ce pool. Si des relations avec la société mère et la société enfant sont en cause, contactez votre responsable de compte pour confirmer qu'elles sont correctement enregistrées. Dans le cas contraire, le pool de licences de capacité risque d'être indisponible.
+
 Capacity Licensing est une option de licence alternative disponible auprès de NetApp. Découvrez ou exécutez les tâches liées à l'utilisation de licences de capacité :
 
 [cols="25,75"]

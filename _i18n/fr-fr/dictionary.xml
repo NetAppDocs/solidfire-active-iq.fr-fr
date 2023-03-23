@@ -1106,4 +1106,5 @@
   <block id="9f360968c28895acf09b091f83e3603f" category="cell">Informations permettant d'identifier la relation SnapMirror</block>
   <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">Réplication entre le logiciel NetApp Element et ONTAP</block>
   <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
+  <block id="f5f48e4a05f564b44c9541295334dd2e" category="paragraph">Pour afficher un pool de licences de capacité donné, vous devez disposer des autorisations nécessaires pour afficher tous les clusters inclus dans ce pool. Si des relations avec la société mère et la société enfant sont en cause, contactez votre responsable de compte pour confirmer qu'elles sont correctement enregistrées. Dans le cas contraire, le pool de licences de capacité risque d'être indisponible.</block>
 </blocks>
