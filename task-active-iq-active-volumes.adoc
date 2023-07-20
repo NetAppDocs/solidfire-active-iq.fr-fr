@@ -160,7 +160,7 @@ Indique la quantité maximale du volume :
 | 512 e activé | Indique si 512e est activé sur un volume. 
 
 
-| Accélérateur QoS | Identifie si le volume est mis au ralenti en raison de la charge élevée sur le nœud de stockage primaire. 
+| Accélérateur QoS | Représente la régulation actuelle du volume. La valeur n'inclut pas la restriction historique sur le volume. 
 
 
 | ID nœud principal | Nœud principal de ce volume. 
