@@ -11,12 +11,13 @@ summary: Découvrez la page de gestion de la QoS dans SolidFire Active IQ.
 
 
 [role="lead"]
-À partir de la page *QoS Management*, disponible dans le panneau latéral d'un cluster sélectionné, vous pouvez afficher des informations sur les recommandations relatives à la qualité de service et l'accélération des nœuds d'un cluster.
+À partir de la page *QoS Management*, disponible dans le panneau latéral d'un cluster sélectionné, vous pouvez afficher des informations sur les recommandations de QoS, les restrictions et les volumes pour les nœuds d'un cluster.
 
-Découvrez comment afficher les informations relatives aux recommandations en matière de QoS et à l'accélération d'un nœud sélectionné :
+Découvrez comment afficher les informations relatives aux recommandations de QoS, aux restrictions et aux volumes d'un nœud sélectionné :
 
 * link:task-active-iq-recommendations.html["Recommandations"]
 * link:task-active-iq-throttling.html["Accélération des nœuds"]
+* link:task-active-iq-busiest-volumes.html["Volumes les plus occupés"]
 
 
 

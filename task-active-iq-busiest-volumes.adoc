@@ -1,0 +1,52 @@
+---
+permalink: task-active-iq-busiest-volumes.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, volumes, busiest 
+summary: Découvrez la page des volumes les plus sollicités dans SolidFire Active IQ. 
+---
+= Volumes les plus occupés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+À partir de la page *QoS Management* > *inoccupé volumes*, disponible dans le panneau latéral pour un cluster sélectionné, vous pouvez afficher les dix volumes ayant le débit le plus élevé pour un nœud sélectionné et la plage horaire dans le cluster.
+
+Découvrez comment afficher les informations de volume les plus sollicitées :
+
+* <<Affichez les graphiques et sélectionnez les plages de dates>>
+* <<Exportez les données de nœud les plus sollicitées>>
+
+
+
+
+== Affichez les graphiques et sélectionnez les plages de dates
+
+Après avoir sélectionné le nœud dans la liste déroulante, les dix volumes avec le débit le plus élevé sur ce nœud sont affichés. Pour chaque volume, vous pouvez afficher les graphiques *Throughput*, *Average IO Size*, *IOPS* et *Latency* ; pour voir le dernier graphique, vous devrez peut-être faire défiler la page vers le bas. Pour passer d'un volume à l'autre, sélectionnez les présentations de miniatures sur la gauche. Lorsque vous sélectionnez un nœud différent, ces graphiques sont modifiés sur le nouveau nœud sélectionné.
+
+Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lors de la sélection d'une plage de dates, les graphiques de cette page s'adaptent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours. Vous pouvez sélectionner une plage de dates dans la liste déroulante du calendrier ou à partir d'un ensemble de plages prédéfinies. Vous pouvez également sélectionner l'intervalle souhaité en vous brossant directement sur le graphique à barres en bas de l'écran. Les plages de dates sont calculées à l'aide de l'heure actuelle du navigateur (au moment de la sélection) et de la durée configurée. Lorsque vous modifiez la plage de dates sélectionnée pour un nœud, les dix volumes les plus occupés affichés peuvent également changer.
+
+.Développez l'exemple de graphique
+[%collapsible]
+====
+image:busiest_volumes.PNG["Affichage graphique des volumes les plus occupés"]
+
+====
+Positionnez le pointeur de la souris à n'importe quel point du graphique pour afficher les détails des opérations de lecture, d'écriture et de total. Si un volume n'est pas présent sur le nœud pour une partie de la plage horaire sélectionnée, il est représenté par une ligne pointillée
+
+
+
+== Exportez les données de nœud les plus sollicitées
+
+Vous pouvez exporter les données graphiques au format CSV (valeurs séparées par des virgules). Seules les informations affichées dans le graphique sont exportées.
+
+.Étapes
+. Dans une liste ou un graphique, sélectionnez le image:export_button.PNG["Bouton Exporter"] icône.
+
+
+
+
+== Trouvez plus d'informations
+
+https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

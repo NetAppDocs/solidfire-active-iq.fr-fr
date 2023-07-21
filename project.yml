@@ -69,6 +69,8 @@ sidebar:
         url: "/task-active-iq-recommendations.html"
       - title: Accélération des nœuds
         url: "/task-active-iq-throttling.html"
+      - title: Volumes les plus occupés
+        url: "/task-active-iq-busiest-volumes.html"
     - title: Ordinateurs virtuels
       url: "/task-active-iq-virtual-machines.html"
     - title: Alarmes VMware

@@ -25,7 +25,7 @@ Pour en savoir plus sur l'affichage des informations d'accélération des nœuds
 
 Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lors de la sélection d'une plage de dates, les graphiques *Node restriction* et *Total Volume Throughput* de cette page s'ajustent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours. Lorsque vous sélectionnez un nœud dans les onglets de sélection de graphique, ces graphiques passent au nœud nouvellement sélectionné.
 
-Vous pouvez sélectionner une plage de dates dans la liste déroulante du calendrier ou à partir d'un ensemble de plages prédéfinies. Les plages de dates sont calculées à l'aide de l'heure actuelle du navigateur (au moment de la sélection) et de la durée configurée. En outre, vous pouvez sélectionner l'intervalle souhaité en vous brossant directement sur le graphique à barres en bas. Vous pouvez passer d'un graphique à l'autre en sélectionnant la disposition des vignettes sur la gauche.
+Vous pouvez sélectionner une plage de dates dans la liste déroulante du calendrier ou à partir d'un ensemble de plages prédéfinies. Les plages de dates sont calculées à l'aide de l'heure actuelle du navigateur (au moment de la sélection) et de la durée configurée. Vous pouvez également sélectionner l'intervalle souhaité en vous brossant directement sur le graphique à barres en bas de l'écran. Pour passer d'un graphique à l'autre, sélectionnez les présentations miniatures sur la gauche.
 
 Le graphique *Node restriction* affiche la limitation du nœud sur la période sélectionnée en fonction des paramètres d'IOPS minimum et maximum pour les volumes hébergés sur le nœud sélectionné. La couleur représente le degré de restriction :
 
@@ -39,7 +39,7 @@ Le graphique *débit de volume total* affiche la somme du débit des volumes pri
 .Développez l'exemple de graphique
 [%collapsible]
 ====
-image:node_throttling_range.PNG["Graphique d'accélération des nœuds"]
+image:node_throttling_range.PNG["Affichage graphique de l'accélération des nœuds"]
 
 ====
 Positionnez le pointeur de la souris à n'importe quel point du graphique pour afficher les détails de point dans le temps.
