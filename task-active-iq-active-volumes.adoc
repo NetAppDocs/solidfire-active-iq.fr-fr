@@ -55,12 +55,14 @@ Capacité utilisée actuelle du volume :
 
 
 | Accélérateur QoS  a| 
-Identifie si le volume est mis au ralenti en raison d'une charge élevée sur le nœud de stockage primaire :
+Représente la régulation actuelle du volume.
 
 * Vert = jusqu'à 20 %
 * Jaune = au-dessus de 20 %
 * Rouge = au-dessus de 80 %
 
+
+La valeur n'inclut pas la restriction historique sur le volume.
 
 
 
@@ -112,12 +114,7 @@ Une fois que la page s'ouvre pour le volume actif, vous pouvez afficher les donn
 
 
 | Capacité utilisée  a| 
-Indique la quantité maximale du volume :
-
-* Vert = jusqu'à 80 %
-* Jaune = au-dessus de 80 %
-* Rouge = au-dessus de 95 %.
-
+Indique le volume complet.
 
 
 

@@ -608,7 +608,6 @@
   <block id="2bc5a323ec4c5f81b720526e8aadd21e" category="cell">ID de nœud secondaire</block>
   <block id="a8c5372cb84d7d3cefd81f7cca2508d1" category="cell">Liste des nœuds secondaires pour ce volume. Il peut s'agir de valeurs multiples pendant les États transitoires, comme le changement de nœuds secondaires, mais il aura généralement une valeur unique.</block>
   <block id="e3fa9173825e8d72d3109748c25adb2b" category="cell">Accélérateur QoS</block>
-  <block id="b7704dec80bad8b4f8c5564e2d1d6f28" category="paragraph">Identifie si le volume est mis au ralenti en raison d'une charge élevée sur le nœud de stockage primaire :</block>
   <block id="40c1f7a2846a63dc74ce6b9dbc7933dc" category="list-text">Vert = jusqu'à 20 %</block>
   <block id="89d6f6a6ae8c5ed89ceadff57f866134" category="list-text">Jaune = au-dessus de 20 %</block>
   <block id="a766a96a4550397e3be62686e9dba4bf" category="list-text">Rouge = au-dessus de 80 %</block>
@@ -630,8 +629,6 @@
   <block id="7d5a20f283f1f159bc8fca5cea5abdf2" category="paragraph">Une fois que la page s'ouvre pour le volume actif, vous pouvez afficher les données récentes du volume à partir de la barre d'informations.</block>
   <block id="e5e232275261e481cb1332fe1e05f070" category="cell">ID généré par le système pour le volume.</block>
   <block id="94a1800545581d04983407fd1d145e62" category="cell">Taille totale du volume.</block>
-  <block id="7da55ffd0ff54b317006c52ea7f2c0e1" category="paragraph">Indique la quantité maximale du volume :</block>
-  <block id="abec01fb58480a49a084850b03ff2d7c" category="list-text">Rouge = au-dessus de 95 %.</block>
   <block id="42bbfc003515ffd17bbf2687a043f11d" category="cell">IOPS moyennes</block>
   <block id="e3b8968fd9318f5d739250d54e769ff4" category="cell">Nombre moyen d'IOPS exécutées sur le volume au cours des 30 dernières minutes.</block>
   <block id="edd5221a3f19c0c3519847deb797f926" category="cell">Débit moyen</block>
@@ -1124,4 +1121,7 @@
   <block id="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="paragraph"><block ref="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4cdebd141dff1c095e06cf5208c27b2b" category="paragraph">Positionnez le pointeur de la souris à n'importe quel point du graphique pour afficher les détails des opérations de lecture, d'écriture et de total. Si un volume n'est pas présent sur le nœud pour une partie de la plage horaire sélectionnée, il est représenté par une ligne pointillée</block>
   <block id="20b3b5b27ff183797189ac06f1b32a54" category="section-title">Exportez les données de nœud les plus sollicitées</block>
+  <block id="86d684bea1d4ec8e7ab5dd525434db07" category="paragraph">Représente la régulation actuelle du volume.</block>
+  <block id="8affec94c4ca90859e2feacff861a492" category="paragraph">La valeur n'inclut pas la restriction historique sur le volume.</block>
+  <block id="b58d6152d74cfc9445a90c470e4070bc" category="paragraph">Indique le volume complet.</block>
 </blocks>
