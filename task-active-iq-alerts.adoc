@@ -89,7 +89,7 @@ La liste suivante décrit les détails qui vous sont disponibles :
 
 == Afficher les règles d'alerte
 
-La page *Policies* du menu déroulant *Alerts* dans *All clusters View* affiche les informations de stratégie suivantes pour tous les clusters.
+La page *stratégies* du menu déroulant alertes dans la vue tous les clusters affiche les informations de stratégie suivantes pour tous les clusters.
 
 La liste suivante décrit les détails qui vous sont disponibles :
 
@@ -277,11 +277,11 @@ La stratégie est définitivement supprimée du système.
 
 == Afficher les clusters supprimés
 
-Sur la page *clusters supprimés* du menu déroulant *alertes* dans *Affichage de tous les clusters*, vous pouvez afficher la liste des clusters dont les notifications d'alerte ont été supprimées.
+Sur la page *groupes/clusters supprimés* du menu déroulant alertes dans la vue tous les clusters, vous pouvez afficher une liste des groupes/clusters dont les notifications d'alerte ont été supprimées.
 
 Le support NetApp ou les clients peuvent supprimer les notifications d'alerte pour un cluster lors de la maintenance. Lorsque des notifications sont supprimées pour un cluster utilisant la suppression de mise à niveau, les alertes courantes qui se produisent pendant les mises à niveau ne sont pas envoyées. Il existe également une option de suppression d'alerte complète qui arrête la notification d'alerte pour un cluster pendant une durée spécifiée. Vous pouvez afficher toutes les alertes par e-mail qui ne sont pas envoyées lorsque les notifications sont supprimées dans la page *Historique* du menu *alertes*. Les notifications supprimées reprennent automatiquement après la durée définie. Vous pouvez arrêter la suppression des notifications plus tôt en sélectionnant « reprendre les notifications » dans le menu déroulant.
 
-Les informations suivantes sont disponibles sur la page *clusters supprimés*.
+Sur la page *groupes supprimés*, vous avez la possibilité d'afficher les informations suivantes pour les suppressions *passées*, *actives* et *futures*. L'option *passé* affiche les suppressions terminées au cours des 90 derniers jours.
 
 [cols="25,75"]
 |===
@@ -295,6 +295,15 @@ Les informations suivantes sont disponibles sur la page *clusters supprimés*.
 
 
 | Nom de cluster | Nom attribué au cluster. 
+
+
+| Créé par | Nom d'utilisateur du compte qui a créé la suppression. 
+
+
+| Heure de création | Heure exacte de création de la suppression. 
+
+
+| Heure mise à jour | Si la suppression a été modifiée après sa création, il s'agit de l'heure exacte de la dernière modification de la suppression. 
 
 
 | Heure de début | Heure exacte de début ou de début de la suppression des notifications. 
@@ -326,7 +335,13 @@ Indique l'état d'une notification d'alerte :
 
 
 
-| Actions | Sélectionnez l'option pour supprimer ou reprendre les notifications d'un cluster. 
+| Planifié  a| 
+Indique si la suppression a été planifiée lors de sa création :
+
+* *Vrai* : les valeurs heure et heure de début créées sont les mêmes.
+* *Faux* : les valeurs d'heure et d'heure de début créées sont différentes.
+
+
 |===
 
 

@@ -459,7 +459,6 @@
   <block id="249694a485fc5d3289c38986b4f8e887" category="cell">Cluster</block>
   <block id="395a2827aacec94ff2183ea6ed2523ab" category="cell">Affiche le nom du cluster pour lequel la règle d'alerte a été ajoutée.</block>
   <block id="4d1c0d628f7187afcd0dbf03553e9365" category="section-title">Afficher les règles d'alerte</block>
-  <block id="36056ade5aa16b4101c0f4cf7927c138" category="paragraph">La page *Policies* du menu déroulant *Alerts* dans *All clusters View* affiche les informations de stratégie suivantes pour tous les clusters.</block>
   <block id="002f7378a5fcfc2f66cfea851a7fd5f4" category="cell">Nom de la règle</block>
   <block id="ae1d52073742c822d33f127442660e95" category="cell">Nom de la règle d'alerte définie par l'utilisateur.</block>
   <block id="370ed24b10bc15a8ba6506396950587d" category="cell">Adresse e-mail définie dans la règle d'alerte.</block>
@@ -541,8 +540,6 @@
   <block id="ad5a54b96d86e967dc2a014c681f9377" category="list-text">Confirmez l'action.</block>
   <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">La stratégie est définitivement supprimée du système.</block>
   <block id="685a82571a4b315892d300d3410d13b9" category="section-title">Afficher les clusters supprimés</block>
-  <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">Sur la page *clusters supprimés* du menu déroulant *alertes* dans *Affichage de tous les clusters*, vous pouvez afficher la liste des clusters dont les notifications d'alerte ont été supprimées.</block>
-  <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">Les informations suivantes sont disponibles sur la page *clusters supprimés*.</block>
   <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">Nom de l'entreprise attribué au cluster.</block>
   <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">ID de cluster</block>
   <block id="ede2b30206235e476ba08b09618f897f" category="cell">Numéro de cluster attribué lors de la création du cluster.</block>
@@ -551,7 +548,6 @@
   <block id="2bbc845892f400626baab5af687527c5" category="cell">Heure de début</block>
   <block id="c91a577b72313356fad611c55f43c10f" category="cell">Heure de fin</block>
   <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">Heure exacte à laquelle la suppression des notifications est planifiée</block>
-  <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">Sélectionnez l'option pour supprimer ou reprendre les notifications d'un cluster.</block>
   <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">Supprimez les notifications de cluster</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Effectuez l'une des opérations suivantes :</block>
   <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">Dans la vue d'ensemble *Dashboard*, sélectionnez le menu actions du cluster que vous souhaitez supprimer.</block>
@@ -1124,4 +1120,17 @@
   <block id="86d684bea1d4ec8e7ab5dd525434db07" category="paragraph">Représente la régulation actuelle du volume.</block>
   <block id="8affec94c4ca90859e2feacff861a492" category="paragraph">La valeur n'inclut pas la restriction historique sur le volume.</block>
   <block id="b58d6152d74cfc9445a90c470e4070bc" category="paragraph">Indique le volume complet.</block>
+  <block id="32082878b3285421b4e15f332218aaf4" category="paragraph">La page *stratégies* du menu déroulant alertes dans la vue tous les clusters affiche les informations de stratégie suivantes pour tous les clusters.</block>
+  <block id="3f35e5d4a65d2fabe1b0df43b7f95473" category="paragraph">Sur la page *groupes/clusters supprimés* du menu déroulant alertes dans la vue tous les clusters, vous pouvez afficher une liste des groupes/clusters dont les notifications d'alerte ont été supprimées.</block>
+  <block id="b0375fa371accb0190cfd4697a3d3a72" category="paragraph">Sur la page *groupes supprimés*, vous avez la possibilité d'afficher les informations suivantes pour les suppressions *passées*, *actives* et *futures*. L'option *passé* affiche les suppressions terminées au cours des 90 derniers jours.</block>
+  <block id="7b1255f8fdd0cb8751baee55621164e1" category="cell">Créé par</block>
+  <block id="85c70e46956e908554028a7cfb3c9bb3" category="cell">Nom d'utilisateur du compte qui a créé la suppression.</block>
+  <block id="171f0707519d57cefcbb271e1ecffd3c" category="cell">Heure de création</block>
+  <block id="37e9a8f9aba121bfbca96f517e2c6767" category="cell">Heure exacte de création de la suppression.</block>
+  <block id="c94ff6ebc86390bffc57ed46a873a939" category="cell">Heure mise à jour</block>
+  <block id="20e8cffa15ad2f6d665e2a2a6fd9cfd9" category="cell">Si la suppression a été modifiée après sa création, il s'agit de l'heure exacte de la dernière modification de la suppression.</block>
+  <block id="2b7dabba0077abe3732e0418b048a56b" category="cell">Planifié</block>
+  <block id="65041f578bcadcc7ac79c02dc07efcf6" category="paragraph">Indique si la suppression a été planifiée lors de sa création :</block>
+  <block id="9f161b7d0108b4a5362af45388ad5756" category="list-text">*Vrai* : les valeurs heure et heure de début créées sont les mêmes.</block>
+  <block id="7167ed746d9c6278dbbbb2634f319107" category="list-text">*Faux* : les valeurs d'heure et d'heure de début créées sont différentes.</block>
 </blocks>
