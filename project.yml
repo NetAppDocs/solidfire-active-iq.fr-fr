@@ -79,25 +79,5 @@ sidebar:
       url: "/task-active-iq-all-nodes-view.html"
   - title: Résoudre les problèmes et prendre en charge
     url: "/task-active-iq-troubleshoot-support.html"
-homepage:
-  tiles:
-  - title: Utiliser l'outil SolidFire Active IQ
-    links:
-    - title: Commencez
-      url: "/task-active-iq-get-started-overview.html"
-    - title: Gérer SolidFire Active IQ
-      url: "/task-active-iq-manage-overview.html"
-  - title: Documentation produit
-    links:
-    - title: SolidFire et Element
-      url: https://docs.netapp.com/us-en/element-software/index.html
-    - title: NetApp HCI
-      url: https://docs.netapp.com/us-en/hci/index.html
-    - title: Documentation produit NetApp
-      url: https://www.netapp.com/support-and-training/documentation
-  - title: Résoudre les problèmes
-    links:
-    - title: Résoudre les problèmes
-      url: "/task-active-iq-troubleshoot-support.html"
-    - title: Contactez l'assistance technique
-      url: https://mysupport.netapp.com/site/global/dashboard
+  - title: Mentions légales
+    url: "/legal-notices.html"

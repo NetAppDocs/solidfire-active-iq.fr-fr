@@ -1133,4 +1133,18 @@
   <block id="65041f578bcadcc7ac79c02dc07efcf6" category="paragraph">Indique si la suppression a été planifiée lors de sa création :</block>
   <block id="9f161b7d0108b4a5362af45388ad5756" category="list-text">*Vrai* : les valeurs heure et heure de début créées sont les mêmes.</block>
   <block id="7167ed746d9c6278dbbbb2634f319107" category="list-text">*Faux* : les valeurs d'heure et d'heure de début créées sont différentes.</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="cc8fa0bc9def74223eff98b04c920c7d" category="sidebar">NetApp SolidFire Active IQ est un outil en ligne qui propose des vues historiques mises à jour en permanence des statistiques relatives à l'ensemble du cluster. Vous pouvez configurer des notifications pour vous alerter au sujet d'événements, de seuils ou de mesures spécifiques sur un cluster, afin qu'elles puissent être traitées rapidement lorsqu'elles se produisent. Avec l'outil Active IQ, vous pouvez surveiller la capacité et les performances, et vous informer sur l'état du cluster facilement et en tout lieu.</block>
+  <block id="e79aba466781e2b47a4a51d4a5e2f1f7" category="sidebar">Mentions légales</block>
 </blocks>
