@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: solidfire, active, iq, nodes 
 summary: Découvrez la page nœuds actifs dans SolidFire Active IQ. 
 ---
-= Nœuds
+= Tête des nœuds
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -63,6 +63,15 @@ L'état du nœud :
 | Type | Affiche le type de modèle du nœud. 
 
 
+| Version de configuration de la plateforme | La version de configuration du châssis sur lequel vous exécutez. 
+
+
+| Version BIOS | La version du BIOS pour le matériel de votre nœud. 
+
+
+| Révision du micrologiciel BMC | La révision du firmware actuellement en cours d'exécution sur le Baseboard Management Controller (BMC). 
+
+
 | Version | Version du logiciel Element sur le nœud. 
 
 
@@ -96,6 +105,15 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 * Si un nœud n'a pas de rôle, la valeur est définie sur - (tiret).
 
 
+
+
+| Fin de disponibilité | Date à laquelle les nœuds ne sont plus disponibles à l'achat, mais sont toujours pris en charge. 
+
+
+| Fin du support matériel | Date à laquelle le matériel n'est plus pris en charge. 
+
+
+| Fin du support logiciel | Date à laquelle le logiciel n'est plus pris en charge. 
 |===
 
 
@@ -151,6 +169,15 @@ L'état du nœud :
 | Numéro de série | Numéro de série unique attribué au nœud. 
 
 
+| Version de configuration de la plateforme | La version de configuration du châssis sur lequel vous exécutez. 
+
+
+| Version BIOS | La version du BIOS pour le matériel de votre nœud. 
+
+
+| Révision du micrologiciel BMC | La révision du firmware actuellement en cours d'exécution sur le Baseboard Management Controller (BMC). 
+
+
 | Version | Version du logiciel Element sur le nœud. 
 
 
@@ -177,6 +204,15 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 * Si un nœud n'a pas de rôle, la valeur est définie sur - (tiret).
 
 
+
+
+| Fin de disponibilité | Date à laquelle les nœuds ne sont plus disponibles à l'achat, mais sont toujours pris en charge. 
+
+
+| Fin du support matériel | Date à laquelle le matériel n'est plus pris en charge. 
+
+
+| Fin du support logiciel | Date à laquelle le logiciel n'est plus pris en charge. 
 |===
 
 
@@ -207,7 +243,22 @@ Sélectionnez *Compute* pour afficher les informations suivantes sur les nœuds 
 | IP vCenter | Adresse IP du serveur vCenter. 
 
 
+| Version BIOS | La version du BIOS pour le matériel de votre nœud. 
+
+
+| Révision du micrologiciel BMC | La révision du firmware actuellement en cours d'exécution sur le Baseboard Management Controller (BMC). 
+
+
 | IP VMotion | Adresse IP réseau VMware vMotion du nœud de calcul. 
+
+
+| Fin de disponibilité | Date à laquelle les nœuds ne sont plus disponibles à l'achat, mais sont toujours pris en charge. 
+
+
+| Fin du support matériel | Date à laquelle le matériel n'est plus pris en charge. 
+
+
+| Fin du support logiciel | Date à laquelle le logiciel n'est plus pris en charge. 
 |===
 
 

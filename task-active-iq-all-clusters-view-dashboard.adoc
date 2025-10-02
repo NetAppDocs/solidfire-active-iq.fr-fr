@@ -52,7 +52,13 @@ Sur la page *Dashboard* de *All clusters View*, vous pouvez afficher les détail
 
 
 | Dernière mise à jour | Heure et date de la mise à jour du cluster la plus récente. 
+
+
+| Actions | Options pour demander la prise en charge de la mise à niveau d'un cluster, archiver un cluster et supprimer un cluster 
 |===
+
+NOTE: Si le cluster que vous recherchez n'est pas disponible, sachez que les clusters inactifs depuis 180 jours ou plus sont automatiquement archivés.  Contactez le support pour obtenir de l'aide.
+
 
 
 == Trouvez plus d'informations

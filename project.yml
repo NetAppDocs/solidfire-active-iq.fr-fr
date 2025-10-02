@@ -29,8 +29,12 @@ sidebar:
       entries:
       - title: Présentation
         url: "/task-active-iq-all-clusters-view-overview.html"
-      - title: Tableau de bord vue de tous les clusters
-        url: "/task-active-iq-all-clusters-view-dashboard.html"
+      - title: Tous les clusters Afficher le tableau de bord
+        entries:
+        - title: Tableau de bord
+          url: "/task-active-iq-all-clusters-view-dashboard.html"
+        - title: Actions groupées
+          url: "/task-active-iq-cluster-options.html"
       - title: Alertes
         url: "/task-active-iq-alerts.html"
       - title: Licences de capacité
@@ -57,6 +61,8 @@ sidebar:
         url: "/task-active-iq-active-volumes.html"
       - title: Snapshots et planifications Snapshot
         url: "/task-active-iq-snapshots-and-schedules.html"
+      - title: Performances en volume
+        url: "/task-active-iq-volume-performance.html"
     - title: La réplication
       url: "/task_active_iq_replication.html"
     - title: Volumes virtuels

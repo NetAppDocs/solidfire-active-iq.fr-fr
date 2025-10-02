@@ -394,7 +394,7 @@ Vous pouvez mettre fin à la suppression des alertes du cluster sur les clusters
 
 == E-mail de notification d'alerte
 
-Les abonnés aux alertes SolidFire Active IQ reçoivent différents e-mails d'état pour chaque alerte qui se déclenche sur le système. Trois types d'e-mails d'état sont associés à des alertes :
+Les abonnés aux alertes SolidFire Active IQ reçoivent des e-mails d'état pour toute alerte déclenchée sur le système.  Il existe trois types d’e-mails de statut associés aux alertes :
 
 [cols="35,65"]
 |===
@@ -418,8 +418,13 @@ La ligne d'objet de l'e-mail d'alerte utilise l'un des formats suivants en fonct
 * Anomalie d'alerte résolue : `Resolved: [policy name] alert on [cluster name] ([severity])`
 
 
-Le contenu de l'e-mail de notification sera similaire à l'exemple suivant :image:example_email.PNG["Exemple d'e-mail"]
+[NOTE]
+====
+Plusieurs notifications sont regroupées dans un seul e-mail avec les défauts les plus graves en haut de l'e-mail, comme dans l'exemple suivant :
 
+image:email_notification.png["Exemple d'e-mail"]
+
+====
 
 
 == Trouvez plus d'informations

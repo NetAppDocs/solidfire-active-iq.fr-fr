@@ -16,7 +16,8 @@ Découvrez le menu déroulant *Reporting* dans le panneau latéral :
 * <<Puissance>>
 * <<Efficacité>>
 * <<Performance>>
-* <<Journal d'erreurs>>
+* <<Utilisation des nœuds>>
+* <<Journal des erreurs>>
 * <<Événements>>
 * <<Alertes>>
 * <<Sessions iSCSI>>
@@ -132,7 +133,15 @@ Sur la page *Performance* du menu déroulant *Reporting* pour un cluster sélect
 
 
 
-== Journal d'erreurs
+== Utilisation des nœuds
+
+Sur la page *Utilisation des nœuds* du menu déroulant *Rapports* d'un cluster sélectionné, vous pouvez sélectionner et afficher chaque nœud.
+
+À partir de l'élément 12.8, les informations sur l'utilisation des nœuds sont disponibles sous la forme `nodeHeat` en utilisant le `GetNodeStats` et `ListNodeStats` Méthodes API.  Le `nodeHeat` l'objet est un membre du `nodeStats` objet et affiche les informations d'utilisation du nœud en fonction du rapport entre le total des IOPS primaires ou le total des IOPS et la moyenne des IOPS configurées au fil du temps.  Le graphique d'utilisation des nœuds montre cela sous forme de pourcentage dérivé de la métrique `recentPrimaryTotalHeat` .
+
+
+
+== Journal des erreurs
 
 Sur la page *Journal d'erreurs* du menu déroulant *Rapport* pour une grappe sélectionnée, vous pouvez afficher des informations sur les erreurs non résolues ou résolues qui ont été signalées par le cluster. Ces informations peuvent être filtrées et exportées dans un fichier CSV (valeurs séparées par des virgules). Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
 
@@ -179,7 +188,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 
 == Événements
 
-Sur la page *Events* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des informations sur les événements clés survenus sur le cluster. Ces informations peuvent être filtrées et exportées vers un fichier CSV.
+Sur la page *Événements* du menu déroulant *Rapports* d'un cluster sélectionné, vous pouvez choisir entre les onglets *Événements* et *gcEvents* pour afficher des informations sur les événements clés qui se sont produits sur le cluster.  Par défaut, la sélection de *Événements* affiche tous les événements à l'exception de gcEvents pour améliorer la lisibilité.  Pour voir tous les événements, y compris gcEvents, sélectionnez l'onglet intitulé *gcEvents*.  Ces informations peuvent être filtrées et exportées vers un fichier CSV.
 
 Les informations suivantes sont indiquées pour le groupe sélectionné.
 
@@ -194,7 +203,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 | Heure de l'événement | Heure à laquelle l'événement s'est produit. 
 
 
-| Type | Type d'événement consigné, par exemple, des événements d'API ou des événements de clonage. Voir la https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^] pour en savoir plus. 
+| Type | Le type d'événement enregistré, par exemple, les événements API, les événements de clonage ou les événements gc.  Voir le https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^] pour plus d'informations. 
 
 
 | Messagerie | Message associé à l'événement. 

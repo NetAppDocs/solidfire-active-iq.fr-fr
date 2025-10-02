@@ -94,6 +94,11 @@ Développez la barre d'informations en sélectionnant *Afficher les détails* po
 * Vvol
 * Sessions iSCSI
 * Nombre total d'IOPS min. Configurées
+* Rééquilibrage des IOPS
++
+
+NOTE: À partir des clusters Element 12.8, un champ supplémentaire *IOPS Rebalancing* est fourni.  Si l'option à l'échelle du cluster est activée, chaque volume affiche ce paramètre.  La valeur de ce champ est soit vrai, soit faux.  Ce champ est utilisé pour équilibrer les tranches en fonction de la charge réelle plutôt que des paramètres IOPS minimum.
+
 
 
 
