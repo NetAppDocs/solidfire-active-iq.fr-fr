@@ -52,11 +52,11 @@ sidebar:
     - title: Nœuds
       url: "/task-active-iq-nodes.html"
     - title: Disques
-      url: "/task_active_iq_drives.html"
+      url: "/task-active-iq-drives.html"
     - title: Volumes
       entries:
       - title: Présentation
-        url: "/task_active_iq_volumes_overview.html"
+        url: "/task-active-iq-volumes-overview.html"
       - title: Volumes actifs
         url: "/task-active-iq-active-volumes.html"
       - title: Snapshots et planifications Snapshot
@@ -64,7 +64,7 @@ sidebar:
       - title: Performances en volume
         url: "/task-active-iq-volume-performance.html"
     - title: La réplication
-      url: "/task_active_iq_replication.html"
+      url: "/task-active-iq-replication.html"
     - title: Volumes virtuels
       url: "/task-active-iq-virtual-volumes.html"
     - title: Gestion de la QoS

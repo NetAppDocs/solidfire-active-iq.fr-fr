@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_drives.html 
+permalink: task-active-iq-drives.html 
 sidebar: sidebar 
 keywords: solidfire, active, iq, drives 
 summary: En savoir plus sur la page lecteurs de SolidFire Active IQ. 
@@ -50,6 +50,7 @@ Les informations suivantes sont disponibles pour chaque disque du cluster en fon
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

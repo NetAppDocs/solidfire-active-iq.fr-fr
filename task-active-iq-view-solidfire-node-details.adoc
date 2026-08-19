@@ -23,6 +23,7 @@ Sur la page *Nodes*, la barre d'informations fournit un aperçu rapide des donn�
 
 
 
+[[view-information-about-storage-nodes]]
 == Afficher des informations sur les nœuds de stockage
 
 Les informations suivantes sont disponibles pour chaque nœud de stockage du cluster :
@@ -92,6 +93,7 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

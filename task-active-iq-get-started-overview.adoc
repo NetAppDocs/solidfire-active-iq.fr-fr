@@ -20,6 +20,7 @@ Avec l'outil SolidFire Active IQ, le contrôle de la capacité et des performanc
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

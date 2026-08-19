@@ -19,6 +19,7 @@ Pour en savoir plus sur l'affichage d'informations sur les instantanés et les p
 
 
 
+[[snapshots]]
 == Snapshots
 
 À partir de la page *volumes* disponible dans le panneau latéral d'un cluster sélectionné, vous pouvez afficher des informations sur les instantanés de volume.
@@ -75,6 +76,7 @@ Affiche l'état du snapshot sur le cluster distant :
 |===
 
 
+[[snapshot-schedules]]
 == Planifications Snapshot
 
 À partir de la page *volumes* > *snapshots Schedules* disponible dans le panneau latéral d'une grappe sélectionnée, vous pouvez afficher les détails de la planification des snapshots.
@@ -113,6 +115,7 @@ La liste suivante décrit les détails disponibles :
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

@@ -21,6 +21,7 @@ Les détails disponibles varient en fonction de votre système :
 
 
 
+[[view-solidfire-storage-node-details]]
 == Afficher les détails des nœuds de stockage SolidFire
 
 Chaque nœud est un ensemble de disques SSD. Chaque nœud de stockage est fourni avec des ressources de processeur, de réseau, de cache et de stockage. Les ressources du nœud de stockage sont regroupées dans un cluster de nœuds.
@@ -35,6 +36,7 @@ Sur la page *Nodes*, la barre d'informations fournit un aperçu rapide des donn�
 
 
 
+[[view-information-about-storage-nodes]]
 === Afficher des informations sur les nœuds de stockage
 
 Les informations suivantes sont disponibles pour chaque nœud de stockage du cluster :
@@ -117,6 +119,7 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 |===
 
 
+[[view-netapp-hci-storage-and-compute-node-details]]
 == Consultez les détails des nœuds de calcul et de stockage NetApp HCI
 
 Pour les nœuds NetApp H-Series, qui composent un système NetApp HCI, il existe deux types : les nœuds de calcul et de stockage.
@@ -135,6 +138,7 @@ Pour en savoir plus sur l'affichage des informations sur les nœuds de stockage 
 
 
 
+[[view-information-about-storage-nodes]]
 === Afficher des informations sur les nœuds de stockage
 
 Sélectionnez *Storage* pour afficher les informations suivantes sur les nœuds de stockage du cluster.
@@ -216,6 +220,7 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 |===
 
 
+[[view-information-about-compute-nodes]]
 === Afficher des informations sur les nœuds de calcul
 
 Sélectionnez *Compute* pour afficher les informations suivantes sur les nœuds de calcul du cluster.
@@ -262,6 +267,7 @@ Sélectionnez *Compute* pour afficher les informations suivantes sur les nœuds 
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

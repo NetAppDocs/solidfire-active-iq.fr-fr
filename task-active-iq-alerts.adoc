@@ -30,6 +30,7 @@ Découvrez ou effectuez des tâches liées aux alertes :
 
 
 
+[[view-alerts-history]]
 == Afficher l'historique des alertes
 
 Vous pouvez afficher l'historique des alertes non résolues ou résolues.
@@ -42,6 +43,7 @@ Vous pouvez afficher l'historique des alertes non résolues ou résolues.
 
 
 
+[[alerts-history-details]]
 == Détails de l'historique des alertes
 
 La page *Historique* du menu déroulant alertes dans la vue tous les clusters affiche jusqu'à 10000 entrées de l'historique des alertes, y compris toutes les alertes et alertes non résolues au cours des 30 derniers jours.
@@ -87,6 +89,7 @@ La liste suivante décrit les détails qui vous sont disponibles :
 |===
 
 
+[[view-alert-policies]]
 == Afficher les règles d'alerte
 
 La page *stratégies* du menu déroulant alertes dans la vue tous les clusters affiche les informations de stratégie suivantes pour tous les clusters.
@@ -131,6 +134,8 @@ Détermine les alertes et les événements qui sont supprimés. Les types suivan
 |===
 
 
+[[create-an-alert-policy]]
+[[create_alert_policy]]
 == Création d'une règle d'alerte
 
 Vous pouvez créer une règle d'alerte pour surveiller les informations à partir de la *vue tous les clusters* dans SolidFire Active IQ. Les règles d'alerte vous permettent de recevoir une notification d'état ou de performances lorsqu'un ou plusieurs clusters se trouvent dans l'ensemble de l'installation, afin de prendre des mesures préalablement ou en réponse à un événement plus grave.
@@ -168,6 +173,8 @@ CAUTION: Lorsque vous ajoutez un nouveau cluster à votre installation une fois 
 
 
 
+[[alert-policy-types]]
+[[alert_policy_types]]
 == Types de règles d'alerte
 
 Vous pouvez créer des stratégies d'alerte en fonction des types de stratégie disponibles répertoriés dans la boîte de dialogue *Créer une stratégie* à partir de *alarmes* > *stratégies*.
@@ -222,6 +229,7 @@ Les alertes de politique disponibles incluent les types suivants :
 |===
 
 
+[[edit-an-alert-policy]]
 == Modifiez une règle d'alerte
 
 Vous pouvez modifier une règle d'alerte pour ajouter ou supprimer des clusters d'une règle ou modifier d'autres paramètres de règle.
@@ -259,6 +267,7 @@ CAUTION: Lorsque vous ajoutez un nouveau cluster à votre installation une fois 
 
 
 
+[[delete-an-alert-policy]]
 == Supprimez une règle d'alerte
 
 La suppression d'une règle d'alerte la supprime définitivement du système. Les notifications par e-mail ne sont plus envoyées pour cette stratégie et les associations de clusters avec cette règle sont supprimées.
@@ -275,6 +284,7 @@ La stratégie est définitivement supprimée du système.
 
 
 
+[[view-suppressed-clusters]]
 == Afficher les clusters supprimés
 
 Sur la page *groupes/clusters supprimés* du menu déroulant alertes dans la vue tous les clusters, vous pouvez afficher une liste des groupes/clusters dont les notifications d'alerte ont été supprimées.
@@ -283,6 +293,7 @@ Le support NetApp ou les clients peuvent supprimer les notifications d'alerte po
 
 Sur la page *groupes supprimés*, vous avez la possibilité d'afficher les informations suivantes pour les suppressions *passées*, *actives* et *futures*. L'option *passé* affiche les suppressions terminées au cours des 90 derniers jours.
 
+[[suppressed_types]]
 [cols="25,75"]
 |===
 | En-tête | Description 
@@ -345,6 +356,7 @@ Indique si la suppression a été planifiée lors de sa création :
 |===
 
 
+[[suppress-cluster-notifications]]
 == Supprimez les notifications de cluster
 
 Vous pouvez supprimer les notifications d'alerte au niveau du cluster pour un ou plusieurs clusters. Pour commencer à une date et une heure actuelles, vous pouvez ensuite supprimer ces notifications.
@@ -377,6 +389,7 @@ NOTE: Cette action supprime également certaines notifications ou toutes les not
 
 
 
+[[end-cluster-suppression-from-a-cluster]]
 == Suppression du bloc d'instruments d'extrémité d'un cluster
 
 Vous pouvez mettre fin à la suppression des alertes du cluster sur les clusters qui ont été appliqués à l'aide de la fonction Supprimer les clusters. Cela permet aux clusters de reprendre leur rapport d'état normal des alertes.
@@ -392,6 +405,7 @@ Vous pouvez mettre fin à la suppression des alertes du cluster sur les clusters
 
 
 
+[[alert-notification-email]]
 == E-mail de notification d'alerte
 
 Les abonnés aux alertes SolidFire Active IQ reçoivent des e-mails d'état pour toute alerte déclenchée sur le système.  Il existe trois types d’e-mails de statut associés aux alertes :
@@ -427,6 +441,7 @@ image:email_notification.png["Exemple d'e-mail"]
 ====
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

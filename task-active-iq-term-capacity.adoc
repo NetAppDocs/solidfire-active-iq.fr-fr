@@ -37,6 +37,7 @@ Sur la page *terme capacité* dans la *vue tous les clusters*, vous pouvez affic
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

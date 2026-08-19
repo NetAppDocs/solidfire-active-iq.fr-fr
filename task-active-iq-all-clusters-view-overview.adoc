@@ -23,6 +23,7 @@ Découvrez ce que vous pouvez accéder à partir de la *vue tous les clusters* :
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

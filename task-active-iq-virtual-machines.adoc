@@ -20,6 +20,7 @@ En savoir plus sur le filtrage et la compréhension des données des VM affiché
 
 
 
+[[view-virtual-machine-details]]
 == Afficher les détails de l'ordinateur virtuel
 
 La page *machines virtuelles*, disponible dans le panneau latéral d'un cluster sélectionné, fournit des informations sur chaque machine virtuelle active associée au cluster.
@@ -77,6 +78,7 @@ L'état de disponibilité du VM :
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

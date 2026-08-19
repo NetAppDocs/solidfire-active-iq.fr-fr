@@ -821,10 +821,7 @@
   <block id="277d58ac537e0d48d56c275fffae51d7" category="inline-link-macro">Sélectionnez un cluster</block>
   <block id="15ac47d735d2abb9f151cb6f3bd87f56" category="list-text"><block ref="15ac47d735d2abb9f151cb6f3bd87f56" category="inline-link-macro-rx"></block></block>
   <block id="7ff6daa1a681385f423e95a7f18161fa" category="list-text"><block ref="7ff6daa1a681385f423e95a7f18161fa" category="inline-link-macro-rx"></block></block>
-  <block id="1c968709a3462ab0df1449c2d11bde23" category="list-text"><block ref="1c968709a3462ab0df1449c2d11bde23" category="inline-link-macro-rx"></block></block>
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="inline-link-macro">Volumes</block>
-  <block id="ecc1ca87dba4ff5285bc315dba67c326" category="list-text"><block ref="ecc1ca87dba4ff5285bc315dba67c326" category="inline-link-macro-rx"></block></block>
-  <block id="c0ce04e9e4abab6be41f5db5258d5c42" category="list-text"><block ref="c0ce04e9e4abab6be41f5db5258d5c42" category="inline-link-macro-rx"></block></block>
   <block id="44273fb1c66e463d49a94f9db5f32122" category="list-text"><block ref="44273fb1c66e463d49a94f9db5f32122" category="inline-link-macro-rx"></block></block>
   <block id="d57c256b226c8f444c1c9b3956085ad8" category="inline-link-macro">Gestion de la QoS</block>
   <block id="6b83be76b9c570a2cddff82aed1845cd" category="list-text"><block ref="6b83be76b9c570a2cddff82aed1845cd" category="inline-link-macro-rx"></block></block>
@@ -1128,15 +1125,11 @@
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="cc8fa0bc9def74223eff98b04c920c7d" category="sidebar">NetApp SolidFire Active IQ est un outil en ligne qui propose des vues historiques mises à jour en permanence des statistiques relatives à l'ensemble du cluster. Vous pouvez configurer des notifications pour vous alerter au sujet d'événements, de seuils ou de mesures spécifiques sur un cluster, afin qu'elles puissent être traitées rapidement lorsqu'elles se produisent. Avec l'outil Active IQ, vous pouvez surveiller la capacité et les performances, et vous informer sur l'état du cluster facilement et en tout lieu.</block>
   <block id="e79aba466781e2b47a4a51d4a5e2f1f7" category="sidebar">Mentions légales</block>
   <block id="0e0407e74a36d220d8d01a7e581ac795" category="paragraph">Depuis la page *Volumes*, vous pouvez afficher les détails des volumes actifs.</block>
@@ -1194,4 +1187,15 @@
   <block id="1c81c21988d2d2837cde901d44b4346b" category="list-text">Vous pouvez également sélectionner *Volumes* &gt; *Volumes actifs*.</block>
   <block id="23de2a1ae75bcf2f4de17d30fe859a05" category="sidebar">Tous les clusters Afficher le tableau de bord</block>
   <block id="2938c7f7e560ed972f8a4f68e80ff834" category="sidebar">Tableau de bord</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="194edd46bd66672ee90c8390e06869d5" category="list-text"><block ref="194edd46bd66672ee90c8390e06869d5" category="inline-link-macro-rx"></block></block>
+  <block id="80ad51ecad6bb84f49b490160c169e2a" category="list-text"><block ref="80ad51ecad6bb84f49b490160c169e2a" category="inline-link-macro-rx"></block></block>
+  <block id="ee72d919d52950cd7223f93918099843" category="list-text"><block ref="ee72d919d52950cd7223f93918099843" category="inline-link-macro-rx"></block></block>
 </blocks>

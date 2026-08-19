@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_volumes_overview.html 
+permalink: task-active-iq-volumes-overview.html 
 sidebar: sidebar 
 keywords: solidfire, active, iq, volumes, cluster 
 summary: Découvrez la page volumes dans SolidFire Active IQ. 
@@ -21,6 +21,7 @@ Pour en savoir plus sur ce qui s'affiche à partir de la page *volumes* :
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

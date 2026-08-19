@@ -21,6 +21,7 @@ Découvrez comment afficher les informations de volume les plus sollicitées :
 
 
 
+[[view-graphs-and-select-date-ranges]]
 == Affichez les graphiques et sélectionnez les plages de dates
 
 Après avoir sélectionné le nœud dans la liste déroulante, les dix volumes avec le débit le plus élevé sur ce nœud sont affichés. Pour chaque volume, vous pouvez afficher les graphiques *Throughput*, *Average IO Size*, *IOPS* et *Latency* ; pour voir le dernier graphique, vous devrez peut-être faire défiler la page vers le bas. Pour passer d'un volume à l'autre, sélectionnez les présentations de miniatures sur la gauche. Lorsque vous sélectionnez un nœud différent, ces graphiques sont modifiés sur le nouveau nœud sélectionné.
@@ -37,6 +38,7 @@ Positionnez le pointeur de la souris à n'importe quel point du graphique pour a
 
 
 
+[[export-busiest-node-data]]
 == Exportez les données de nœud les plus sollicitées
 
 Vous pouvez exporter les données graphiques au format CSV (valeurs séparées par des virgules). Seules les informations affichées dans le graphique sont exportées.
@@ -47,6 +49,7 @@ Vous pouvez exporter les données graphiques au format CSV (valeurs séparées p
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

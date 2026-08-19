@@ -24,6 +24,7 @@ Découvrez les fonctionnalités de l'interface utilisateur dans link:https://act
 
 
 
+[[use-filters]]
 == Utiliser des filtres
 
 Vous pouvez trier et filtrer les informations de liste sur les pages de SolidFire Active IQ. Lors de l'affichage de listes (nœuds, disques, volumes, etc.), vous pouvez utiliser la fonction de filtre pour concentrer les informations et les rendre plus faciles à ajuster à l'écran.
@@ -51,6 +52,7 @@ NOTE: Certaines tables incluent l'option d'exclure des colonnes de la vue. Pour 
 
 
 
+[[sort-lists]]
 == Trier les listes
 
 Vous pouvez trier les informations de liste par une ou plusieurs colonnes de certaines pages dans l'interface utilisateur de SolidFire Active IQ. Cela vous aide à organiser les informations dont vous avez besoin à l'écran.
@@ -70,6 +72,7 @@ Cette fonctionnalité n'est pas disponible sur toutes les pages.
 
 
 
+[[view-graphs-and-select-date-ranges]]
 == Affichez les graphiques et sélectionnez les plages de dates
 
 Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lorsque vous sélectionnez une plage de dates, tous les graphiques de cette page s'ajustent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours.
@@ -86,6 +89,7 @@ image:graphs_and_date_ranges.PNG["Graphiques et plages de dates"]
 ====
 
 
+[[export-list-views-and-report-data]]
 == Exporter les vues de listes et les données de rapport
 
 Vous pouvez exporter une liste entière ou des données de graphe dans un format CSV (valeurs séparées par des virgules). Pour certaines listes, par exemple, cluster ou nœuds, vous pouvez sélectionner les colonnes à exporter ; par défaut, les colonnes affichées sont sélectionnées. S'il existe un certain ordre de tri ou si un filtre est utilisé pour limiter les entrées affichées, cet ordre de tri et ce filtre sont conservés dans le fichier exporté.
@@ -96,6 +100,7 @@ Vous pouvez exporter une liste entière ou des données de graphe dans un format
 
 
 
+[[select-a-cluster]]
 == Sélectionnez un cluster
 
 Dans SolidFire Active IQ, vous pouvez afficher des informations sur un cluster individuel dans votre environnement.
@@ -109,6 +114,7 @@ Dans SolidFire Active IQ, vous pouvez afficher des informations sur un cluster i
 
 
 
+[[icon-reference]]
 == Référence de l'icône
 
 Lors de l'affichage de l'interface utilisateur de SolidFire Active IQ, les icônes suivantes peuvent s'afficher.
@@ -160,6 +166,7 @@ image:more_details.PNG["Icône plus de détails"]
 |===
 
 
+[[provide-feedback]]
 == Laisser des commentaires
 
 Vous pouvez aider à améliorer l'interface utilisateur d'SolidFire Active IQ et à résoudre tous les problèmes liés à l'interface utilisateur à l'aide de l'option de commentaires par e-mail accessible via l'interface utilisateur.
@@ -173,6 +180,7 @@ Vous pouvez aider à améliorer l'interface utilisateur d'SolidFire Active IQ et
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

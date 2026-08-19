@@ -21,6 +21,7 @@ Pour en savoir plus sur l'affichage des informations d'accélération des nœuds
 
 
 
+[[view-graphs-and-select-date-ranges]]
 == Affichez les graphiques et sélectionnez les plages de dates
 
 Les graphiques et plages de dates dans SolidFire Active IQ sont intégrés de manière transparente. Lors de la sélection d'une plage de dates, les graphiques *Node restriction* et *Total Volume Throughput* de cette page s'ajustent à la plage sélectionnée. La plage de dates par défaut affichée pour chaque graphique est de sept jours. Lorsque vous sélectionnez un nœud dans les onglets de sélection de graphique, ces graphiques passent au nœud nouvellement sélectionné.
@@ -51,6 +52,7 @@ NOTE: Dans la page accélération des nœuds, vous pouvez déterminer s'il exist
 
 
 
+[[export-node-throttling-data]]
 == Exporter les données d'accélération de nœud
 
 Vous pouvez exporter les données graphiques au format CSV (valeurs séparées par des virgules). Seules les informations affichées dans le graphique sont exportées.
@@ -61,6 +63,7 @@ Vous pouvez exporter les données graphiques au format CSV (valeurs séparées p
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

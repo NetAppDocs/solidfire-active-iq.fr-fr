@@ -15,6 +15,7 @@ Depuis la page *Volumes*, vous pouvez afficher les détails des volumes actifs.
 
 
 
+[[view-active-volume-details]]
 == Afficher les détails du volume actif
 
 Sur la page *volumes* > *Active volumes* pour un cluster sélectionné, vous pouvez afficher les informations suivantes dans la liste des volumes actifs.
@@ -89,6 +90,7 @@ La valeur n'inclut pas la restriction historique sur le volume.
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

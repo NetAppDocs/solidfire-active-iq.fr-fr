@@ -24,6 +24,7 @@ Découvrez les tâches liées aux VVol :
 
 
 
+[[virtual-volumes]]
 == Volumes virtuels
 
 La page *VVols* > *Virtual volumes* pour un cluster sélectionné fournit des informations sur chaque volume virtuel actif du cluster.
@@ -92,6 +93,7 @@ Capacité utilisée actuelle du volume :
 |===
 
 
+[[storage-containers]]
 == Conteneurs de stockage
 
 Sur la page *VVol* > *Storage Containers* pour un cluster sélectionné, vous pouvez afficher les informations suivantes pour tous les conteneurs de stockage actifs du cluster.
@@ -126,6 +128,7 @@ L'état du conteneur de stockage :
 |===
 
 
+[[protocol-endpoints]]
 == Terminaux PE
 
 La page *VVol* > *Protocol Endpoints* du cluster sélectionné fournit des informations sur les points de terminaison de protocole comme l'ID de fournisseur principal, l'ID de fournisseur secondaire et l'ID de point de terminaison de protocole.
@@ -162,6 +165,7 @@ L'état du noeud final du protocole :
 |===
 
 
+[[hosts]]
 == Hôtes
 
 La page *VVol* > *hosts* d'un cluster sélectionné fournit des informations sur les hôtes VMware ESXi qui hébergent des volumes virtuels.
@@ -187,6 +191,7 @@ La page *VVol* > *hosts* d'un cluster sélectionné fournit des informations sur
 |===
 
 
+[[bindings]]
 == Liaisons
 
 La page *VVol* > *liaisons* d'un cluster sélectionné fournit des informations de liaison sur chaque volume virtuel.
@@ -218,6 +223,7 @@ La page *VVol* > *liaisons* d'un cluster sélectionné fournit des informations 
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

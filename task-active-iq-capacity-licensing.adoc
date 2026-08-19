@@ -38,6 +38,7 @@ Capacity Licensing est une option de licence alternative disponible auprès de N
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

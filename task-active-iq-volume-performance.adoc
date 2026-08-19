@@ -19,6 +19,7 @@ Depuis la page *Volumes*, vous pouvez afficher les détails de chaque volume et 
 
 
 
+[[view-individual-volume-details]]
 == Afficher les détails individuels du volume
 
 À partir de la page *volumes*, vous pouvez afficher plus d'informations pour un volume individuel.
@@ -116,6 +117,7 @@ Indique le volume complet.
 |===
 
 
+[[view-individual-volume-performance-graphs]]
 == Affichez des graphiques de performance de volume individuels
 
 À partir de la page *volumes*, vous pouvez afficher l'activité de performance de chaque volume dans un format graphique. Ces informations fournissent des statistiques en temps réel sur le débit, les IOPS, la latence, la profondeur de la file d'attente, la taille moyenne des E/S, et de capacité pour chaque volume.
@@ -146,6 +148,7 @@ Une page distincte s'ouvre pour afficher un chronogramme réglable, qui est sync
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

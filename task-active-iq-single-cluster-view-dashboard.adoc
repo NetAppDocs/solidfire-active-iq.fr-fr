@@ -23,6 +23,7 @@ Les détails disponibles varient en fonction de votre système :
 
 
 
+[[storage-only-system]]
 == Système de stockage uniquement
 
 Pour une solution de stockage SolidFire, vous pouvez afficher des détails et des informations de performances spécifiques à votre cluster lorsque vous sélectionnez *Afficher les détails* sur la page *Tableau de bord*.
@@ -67,6 +68,7 @@ Cela montre l'état de santé et la plénitude du cluster de l'installation :
 |===
 
 
+[[netapp-hci-system-overview]]
 == Présentation du système NetApp HCI
 
 Avec une solution basée sur NetApp HCI, vous pouvez afficher les détails et les informations de performances spécifiques à votre cluster lorsque vous sélectionnez *Afficher les détails* sur la page *Tableau de bord*.
@@ -122,6 +124,7 @@ Cela montre l'état de santé et la plénitude du cluster de l'installation :
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

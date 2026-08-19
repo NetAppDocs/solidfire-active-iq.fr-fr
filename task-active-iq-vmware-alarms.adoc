@@ -42,6 +42,7 @@ Découvrez les données d'alarmes VMware affichées dans l'interface utilisateur
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

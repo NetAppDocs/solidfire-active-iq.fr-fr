@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_replication.html 
+permalink: task-active-iq-replication.html 
 sidebar: sidebar 
 keywords: solidfire, active, iq, replication 
 summary: En savoir plus sur la page réplication dans SolidFire Active IQ. 
@@ -23,6 +23,8 @@ En savoir plus sur les pages paires de clusters et de volumes :
 
 
 
+[[cluster-pairs]]
+[[cluster_pairs]]
 == Paires de clusters
 
 Sur la page *Replication* > *Cluster paires* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les paires de clusters.
@@ -51,6 +53,8 @@ Sur la page *Replication* > *Cluster paires* pour un cluster sélectionné, vous
 |===
 
 
+[[volume-pairs]]
+[[volume_pairs]]
 == Paires de volume
 
 Sur la page *réplication* > *paires de volumes* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les paires de volumes.
@@ -96,6 +100,8 @@ NOTE: Un volume cible dans un état de réplication actif a toujours un délai a
 |===
 
 
+[[snapmirror-endpoints]]
+[[snapmirror_endpoints]]
 == Terminaux SnapMirror
 
 Sur la page *Replication* > *SnapMirror Endpoints* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les terminaux SnapMirror.
@@ -124,6 +130,8 @@ Sur la page *Replication* > *SnapMirror Endpoints* d'un cluster sélectionné, v
 |===
 
 
+[[snapmirror-relationships]]
+[[snapmirror_relationships]]
 == Relations SnapMirror
 
 Sur la page *Replication* > *SnapMirror Relationships* d'un cluster sélectionné, vous pouvez afficher les informations suivantes sur les relations SnapMirror.
@@ -185,6 +193,7 @@ L'état du cluster :
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 * https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

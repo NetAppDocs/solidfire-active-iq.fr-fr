@@ -27,6 +27,7 @@ Découvrez le menu déroulant *Reporting* dans le panneau latéral :
 
 
 
+[[capacity]]
 == Puissance
 
 Sur la page *capacité* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur l'espace de cluster global provisionné en volumes. Les barres d'informations de capacité fournissent l'état actuel et des prévisions de la capacité de stockage en mode bloc et métadonnées pour le cluster. Les graphiques correspondants fournissent des méthodes supplémentaires d'analyse des données du cluster.
@@ -97,6 +98,7 @@ Espace maximal pouvant être provisionné sur le cluster.
 |===
 
 
+[[efficiency]]
 == Efficacité
 
 Sur la page *efficacité* du menu déroulant cluster *Reporting* pour un cluster sélectionné, vous pouvez afficher des informations détaillées sur le provisionnement fin, la déduplication et la compression sur le cluster lorsque vous déplacez le pointeur de la souris sur les points de données du graphique.
@@ -127,12 +129,14 @@ Les descriptions suivantes fournissent des détails sur les gains d'efficacité 
 |===
 
 
+[[performance]]
 == Performance
 
 Sur la page *Performance* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur l'utilisation des IOPS, le débit et l'utilisation du cluster en sélectionnant la catégorie et le filtrage en fonction de la période de temps.
 
 
 
+[[node-utilization]]
 == Utilisation des nœuds
 
 Sur la page *Utilisation des nœuds* du menu déroulant *Rapports* d'un cluster sélectionné, vous pouvez sélectionner et afficher chaque nœud.
@@ -141,6 +145,7 @@ Sur la page *Utilisation des nœuds* du menu déroulant *Rapports* d'un cluster 
 
 
 
+[[error-log]]
 == Journal des erreurs
 
 Sur la page *Journal d'erreurs* du menu déroulant *Rapport* pour une grappe sélectionnée, vous pouvez afficher des informations sur les erreurs non résolues ou résolues qui ont été signalées par le cluster. Ces informations peuvent être filtrées et exportées dans un fichier CSV (valeurs séparées par des virgules). Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
@@ -186,6 +191,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 |===
 
 
+[[events]]
 == Événements
 
 Sur la page *Événements* du menu déroulant *Rapports* d'un cluster sélectionné, vous pouvez choisir entre les onglets *Événements* et *gcEvents* pour afficher des informations sur les événements clés qui se sont produits sur le cluster.  Par défaut, la sélection de *Événements* affiche tous les événements à l'exception de gcEvents pour améliorer la lisibilité.  Pour voir tous les événements, y compris gcEvents, sélectionnez l'onglet intitulé *gcEvents*.  Ces informations peuvent être filtrées et exportées vers un fichier CSV.
@@ -222,6 +228,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 |===
 
 
+[[alerts]]
 == Alertes
 
 Sur la page *Alerts* du menu déroulant *Reporting* pour un groupe sélectionné, vous pouvez afficher les alertes de groupe non résolues ou résolues. Ces informations peuvent être filtrées et exportées vers un fichier CSV. Pour plus d'informations sur les niveaux de sévérité, reportez-vous au https://docs.netapp.com/us-en/element-software/index.html["Documentation du logiciel Element"^].
@@ -255,6 +262,7 @@ Les informations suivantes sont indiquées pour le groupe sélectionné.
 |===
 
 
+[[iscsi-sessions]]
 == Sessions iSCSI
 
 Sur la page *sessions iSCSI* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher des détails sur le nombre de sessions actives sur le cluster et sur le nombre de sessions iSCSI qui se sont produites sur le cluster.
@@ -276,6 +284,7 @@ NOTE: Ces données incluent des sessions iSCSI générées par des nœuds FC.
 
 
 
+[[virtual-networks]]
 == Réseaux virtuels
 
 Sur la page *réseaux virtuels* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher les informations suivantes sur les réseaux virtuels configurés sur le cluster.
@@ -310,6 +319,7 @@ Sur la page *réseaux virtuels* du menu déroulant *Reporting* pour un cluster s
 |===
 
 
+[[api-collection]]
 == Collecte d'API
 
 Sur la page *API Collection* du menu déroulant *Reporting* pour un cluster sélectionné, vous pouvez afficher les méthodes API utilisées par le SolidFire Active IQ NetApp. Pour obtenir des descriptions détaillées de ces méthodes, reportez-vous au link:https://docs.netapp.com/us-en/element-software/api/index.html["Documentation de l'API du logiciel Element"^].
@@ -319,6 +329,7 @@ NOTE: Outre ces méthodes, SolidFire Active IQ effectue des appels internes API 
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

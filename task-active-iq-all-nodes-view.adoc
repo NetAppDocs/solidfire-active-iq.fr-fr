@@ -24,6 +24,7 @@ En savoir plus sur les pages tous les nœuds et nœuds restreints :
 
 
 
+[[view-information-about-all-nodes]]
 == Afficher les informations relatives à tous les nœuds
 
 Sur la page *tous les nœuds*, disponible dans le panneau latéral, vous pouvez afficher des informations sur tous les nœuds de la société sélectionnée.
@@ -82,6 +83,7 @@ Identifie le rôle qui y est attribué au nœud dans le cluster :
 |===
 
 
+[[view-information-about-throttled-nodes]]
 == Permet d'afficher des informations sur les nœuds restreints
 
 Sur la page *nœuds restreints*, disponible dans le panneau latéral, vous pouvez afficher les informations de tous les nœuds avec une accélération supérieure à 1 % au cours des 30 derniers jours pour votre société sélectionnée.
@@ -176,6 +178,7 @@ En savoir plus sur les informations disponibles pour les nœuds restreints.
 |===
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]

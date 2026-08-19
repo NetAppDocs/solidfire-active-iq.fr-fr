@@ -22,6 +22,7 @@ Découvrez comment afficher les informations relatives aux recommandations de Qo
 
 
 
+[[find-more-information]]
 == Trouvez plus d'informations
 
 https://www.netapp.com/support-and-training/documentation/["Documentation produit NetApp"^]
